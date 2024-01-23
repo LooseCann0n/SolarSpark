@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  rootNode:
+    rid: 5127070372504797184
+  nodes:
+  - rid: 5127070372504797184
+  - rid: 5127070372504797185
+  - rid: 5127070372504797187
+  - rid: 5127070372504797188
+  - rid: 5127070372504797189
+  - rid: 5127070372504797190
+  - rid: 5127070372504797191
+  - rid: 5127070372504797192
+  - rid: 5127070372504797193
+  - rid: 5127070372504797195
+  - rid: 5127070372504797196
+  - rid: 5127070372504797197
+  - rid: 5127070372504797198
+  - rid: 5127070372504797200
+  - rid: 5127070372504797201
+  - rid: 5127070372504797203
+  - rid: 5127070372504797207
+  - rid: 5127070372504797208
+  - rid: 5127070372504797209
+  - rid: 5127070372504797210
+  - rid: 5127070372504797211
+  - rid: 5127070372504797212
+  treeState: 0
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    attackPosition: {fileID: 0}
+    playerTransform: {fileID: 0}
+    circleCounter: 0
+    targetCirclePoint: {x: 0, y: 0, z: 0}
+    circleDirection: 0
+  viewPosition: {x: 468, y: 226, z: 0}
+  viewScale: {x: 0.65751624, y: 0.65751624, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5127070372504797184
+      type: {class: RootNode, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 21857ca8-6be1-4d5c-a1ce-3e7e72a11c5a
+        position: {x: -191.99983, y: -335.31125}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        child:
+          rid: 5127070372504797185
+    - rid: 5127070372504797185
+      type: {class: Repeat, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 263c3985441efbd4b96133a2aab28093
+        position: {x: -191.99983, y: -249.90433}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        child:
+          rid: 5127070372504797200
+        restartOnSuccess: 1
+        restartOnFailure: 0
+    - rid: 5127070372504797187
+      type: {class: FindPlayer, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 28ed236cf3e49de4a91c970f88ea83eb
+        position: {x: -570.0414, y: 242.3172}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        enemyTransform: {fileID: 0}
+        viewAngle: 300
+        fovRange: 15
+        maxChaseDistance: 20
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 512
+        obstacleMask:
+          serializedVersion: 2
+          m_Bits: 65
+    - rid: 5127070372504797188
+      type: {class: Selector, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 8b5461cb035bf2e48912597ebe1a8f9c
+        position: {x: -400.55167, y: 242.31726}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797211
+    - rid: 5127070372504797189
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 866a4676f1efe4146a72fda02b6b4da5
+        position: {x: -400.55167, y: 471.31613}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797190
+        - rid: 5127070372504797207
+        - rid: 5127070372504797208
+        - rid: 5127070372504797191
+        - rid: 5127070372504797192
+        - rid: 5127070372504797210
+    - rid: 5127070372504797190
+      type: {class: FindAttackers, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 62567d4ad900a6b4896264c00dea8214
+        position: {x: -800.44135, y: 608.3644}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        aiManager: {fileID: 0}
+        attackerCount: 0
+    - rid: 5127070372504797191
+      type: {class: InRangeNode, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: f046c9f23889cbf43b6e5bcab838aa27
+        position: {x: -293.95853, y: 608.3644}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        attackRange: 3
+    - rid: 5127070372504797192
+      type: {class: AttackNode, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 44efc154d562c094b82befd40281d18b
+        position: {x: -144.33095, y: 608.3644}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        slashCooldown: 2
+        spinAttackCooldown: 3
+        cooldownTimer: 0
+        enemyType: 0
+    - rid: 5127070372504797193
+      type: {class: Repeat, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: fdf68e218ecd4c442962d13d0cf83a5d
+        position: {x: 399.8268, y: 122.48277}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        child:
+          rid: 5127070372504797198
+        restartOnSuccess: 1
+        restartOnFailure: 0
+    - rid: 5127070372504797195
+      type: {class: RandomPosition, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: caab5b0f08bd0e048b2498d5167b699a
+        position: {x: 218.41995, y: 387.97238}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        min: {x: -10, y: -10}
+        max: {x: 10, y: 10}
+    - rid: 5127070372504797196
+      type: {class: MoveToPosition, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: b7cbb0f007f3bb94aaf235fd63c89e8a
+        position: {x: 400.4889, y: 384.66205}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        speed: 5
+        stoppingDistance: 0.1
+        updateRotation: 1
+        acceleration: 40
+        tolerance: 1
+    - rid: 5127070372504797197
+      type: {class: Wait, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 75b5c67dd7c17d74589d5df431be5b13
+        position: {x: 586.5302, y: 385.32416}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        duration: 2
+    - rid: 5127070372504797198
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: e3b981ced3975674da76d9095ae8fc03
+        position: {x: 399.16473, y: 252.24826}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797195
+        - rid: 5127070372504797196
+        - rid: 5127070372504797197
+    - rid: 5127070372504797200
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: fd8b12c10d858d546b3486ab2c08f5b8
+        position: {x: -191.99983, y: -135.12204}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797203
+    - rid: 5127070372504797201
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: a76340143fb72084abe904716ed5815e
+        position: {x: -472.4154, y: 122.48277}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797187
+        - rid: 5127070372504797188
+    - rid: 5127070372504797203
+      type: {class: InterruptSelector, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 122d786d53cebba4182800512c460149
+        position: {x: -192.66212, y: -25.738777}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797201
+        - rid: 5127070372504797193
+    - rid: 5127070372504797207
+      type: {class: AssignAttackPosition, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: c378b22824280fa409ea6999ea80157c
+        position: {x: -650.1516, y: 608.3644}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        stopRange: 0
+        maxAggroRange: 0
+        radiusAroundTarget: 0.5
+    - rid: 5127070372504797208
+      type: {class: StayOnPosition, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 1a476154a99051043bcff31f64c3e465
+        position: {x: -460.13788, y: 608.3644}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        speed: 5
+        stoppingDistance: 0.1
+        updateRotation: 1
+        acceleration: 40
+        tolerance: 1
+    - rid: 5127070372504797209
+      type: {class: KickAttack, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: cc32aaed3da9cbf4f80afc49082b8e2a
+        position: {x: -91.36554, y: 762.0414}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        timeUntilKick: 0.8
+    - rid: 5127070372504797210
+      type: {class: Selector, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 96d9edf4c8e401d4985b0ca83f59c0f9
+        position: {x: 5.9587035, y: 608.3644}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 5127070372504797209
+        - rid: 5127070372504797212
+    - rid: 5127070372504797211
+      type: {class: Repeat, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 983ab76f9a64af14292f7467cdb564e9
+        position: {x: -400.55167, y: 364.13794}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        child:
+          rid: 5127070372504797189
+        restartOnSuccess: 1
+        restartOnFailure: 0
+    - rid: 5127070372504797212
+      type: {class: SlashAttack, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: db303dd662ed61a4ba29444b7933db96
+        position: {x: 81.00003, y: 761.99994}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0

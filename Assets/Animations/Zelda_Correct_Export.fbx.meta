@@ -1,0 +1,2283 @@
+fileFormatVersion: 2
+guid: 5a209dd1434ca9f4e8014c64c8080b2d
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Zelda_Correct_Export(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0.01}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_mesh_gr
+      parentName: Zelda_Correct_Export(Clone)
+      position: {x: -0, y: 0, z: -0.01}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:gr_zelda
+      parentName: zelda_V001_008:Bip001_mesh_gr
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:mesh_zeldaHairBackface
+      parentName: zelda_V001_008:gr_zelda
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:mesh_zeldaEyes
+      parentName: zelda_V001_008:gr_zelda
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:mesh_zeldaCape
+      parentName: zelda_V001_008:gr_zelda
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:mesh_zeldaWaist
+      parentName: zelda_V001_008:gr_zelda
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:mesh_zelda
+      parentName: zelda_V001_008:gr_zelda
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:gr_props
+      parentName: zelda_V001_008:Bip001_mesh_gr
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:gr_melee
+      parentName: zelda_V001_008:gr_props
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:mesh_masterSword
+      parentName: zelda_V001_008:gr_melee
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_globalMove_gr
+      parentName: Zelda_Correct_Export(Clone)
+      position: {x: -0, y: 0, z: -0.01}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_skel_gr
+      parentName: zelda_V001_008:Bip001_globalMove_gr
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_Root
+      parentName: zelda_V001_008:Bip001_skel_gr
+      position: {x: 0, y: -0.6346354, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Shield
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0.04965035, y: 1.1823165, z: -0.18467176}
+      rotation: {x: 0.07612734, y: 0.989594, z: 0.114106014, w: -0.043453522}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldStrap_R
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: 0.10939, y: -0.00042075763, z: -0.050971746}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldStrap_L
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: -0.10938813, y: -0.00042075763, z: -0.083288856}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmear_L
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: -0.29875088, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmearUp_L
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: -0.21071678, y: 0.20884605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmearUp_C
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: -0, y: 0.298751, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmearUp_R
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: 0.21072, y: 0.20884605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmear_R
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: 0.29874998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmearDown_L
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: -0.21071678, y: -0.20885, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmearDown_C
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: 3.5527136e-17, y: -0.29874998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_ShieldSmearDown_R
+      parentName: zelda_V001_008:bn_Shield
+      position: {x: 0.21072, y: -0.20885, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Dagger
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: 0.12853208, y: 0.9849671, z: -0.08008357}
+      rotation: {x: 0.6742997, y: 0.2890611, z: -0.25393444, w: 0.63030225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_DaggerBend
+      parentName: zelda_V001_008:bn_Dagger
+      position: {x: -0, y: 9.436896e-18, z: 0.09430068}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_dagerRope
+      parentName: zelda_V001_008:bn_Dagger
+      position: {x: -0, y: -0.00357627, z: -0.027384505}
+      rotation: {x: 0.46487132, y: 0.53281766, z: 0.46487132, w: 0.53281766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodRoot
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: 0.061750676, y: 1.2010111, z: -0.15948425}
+      rotation: {x: 0.3880276, y: -0.64527744, z: 0.12081596, w: 0.64688104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod
+      parentName: zelda_V001_008:bn_IceRodRoot
+      position: {x: -1.4210854e-16, y: -0.0006973992, z: -0.6363599}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod1
+      parentName: zelda_V001_008:bn_IceRod
+      position: {x: -0.15343566, y: 2.842171e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod2
+      parentName: zelda_V001_008:bn_IceRod1
+      position: {x: -0.15343563, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod3
+      parentName: zelda_V001_008:bn_IceRod2
+      position: {x: -0.15343542, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod4
+      parentName: zelda_V001_008:bn_IceRod3
+      position: {x: -0.15343557, y: -1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod5
+      parentName: zelda_V001_008:bn_IceRod4
+      position: {x: -0.15343557, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod6
+      parentName: zelda_V001_008:bn_IceRod5
+      position: {x: -0.16, y: -1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod7
+      parentName: zelda_V001_008:bn_IceRod6
+      position: {x: -0.16, y: 2.842171e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRod8
+      parentName: zelda_V001_008:bn_IceRod7
+      position: {x: -0.16, y: 1.4210854e-16, z: 2.1316282e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop8
+      parentName: zelda_V001_008:bn_IceRod8
+      position: {x: -4.2632563e-16, y: 0.028274784, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot8
+      parentName: zelda_V001_008:bn_IceRod8
+      position: {x: -4.2632563e-16, y: -0.028269999, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop7
+      parentName: zelda_V001_008:bn_IceRod7
+      position: {x: -2.1316282e-16, y: 0.028274784, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot7
+      parentName: zelda_V001_008:bn_IceRod7
+      position: {x: -2.1316282e-16, y: -0.028269999, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop6
+      parentName: zelda_V001_008:bn_IceRod6
+      position: {x: -0, y: 0.028274784, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot6
+      parentName: zelda_V001_008:bn_IceRod6
+      position: {x: -1.4210854e-16, y: -0.028269999, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop5
+      parentName: zelda_V001_008:bn_IceRod5
+      position: {x: 0.0012110127, y: 0.028274784, z: -0.0016943892}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot5
+      parentName: zelda_V001_008:bn_IceRod5
+      position: {x: -1.4210854e-16, y: -0.028269999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop4
+      parentName: zelda_V001_008:bn_IceRod4
+      position: {x: -0, y: 0.028274784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot4
+      parentName: zelda_V001_008:bn_IceRod4
+      position: {x: -1.4210854e-16, y: -0.028269999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop3
+      parentName: zelda_V001_008:bn_IceRod3
+      position: {x: -4.2632563e-16, y: 0.028274784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot3
+      parentName: zelda_V001_008:bn_IceRod3
+      position: {x: -4.2632563e-16, y: -0.028269999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop2
+      parentName: zelda_V001_008:bn_IceRod2
+      position: {x: -0, y: 0.028274784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot2
+      parentName: zelda_V001_008:bn_IceRod2
+      position: {x: -0, y: -0.028269999, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearTop1
+      parentName: zelda_V001_008:bn_IceRod1
+      position: {x: -0, y: 0.028274784, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_IceRodSmearBot1
+      parentName: zelda_V001_008:bn_IceRod1
+      position: {x: -0, y: -0.028269999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Bottle
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Liquid
+      parentName: zelda_V001_008:bn_Bottle
+      position: {x: -0, y: -0.034297828, z: -4.934325e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop
+      parentName: zelda_V001_008:bn_Liquid
+      position: {x: -0, y: 0.05086355, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop1
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0.044255957, y: -0.0000000011920929, z: -1.0967622e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop2
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0.038326763, y: -0.0000000011920929, z: -0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop3
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0.022127979, y: -0.0000000011920929, z: -0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop4
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0, y: -0.0000000011920929, z: -0.044255957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop5
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: 0.022127979, y: -0.0000000011920929, z: -0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop6
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: 0.038326763, y: -0.0000000011920929, z: -0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop7
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: 0.044255957, y: -0.0000000011920929, z: -1.0967622e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop8
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: 0.038326763, y: -0.0000000011920929, z: 0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop9
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: 0.022127979, y: -0.0000000011920929, z: 0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop10
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0, y: -0.0000000011920929, z: 0.044255957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop11
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0.022127979, y: -0.0000000011920929, z: 0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerTop12
+      parentName: zelda_V001_008:bn_LiquidLayerTop
+      position: {x: -0.038326763, y: -0.0000000011920929, z: 0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid
+      parentName: zelda_V001_008:bn_Liquid
+      position: {x: -0, y: 0.04258069, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid1
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0.044255957, y: -0.0000000011920929, z: -1.0967622e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid2
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0.038326763, y: -0.0000000011920929, z: -0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid3
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0.022127979, y: -0.0000000011920929, z: -0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid4
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0, y: -0.0000000011920929, z: -0.044255957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid5
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: 0.022127979, y: -0.0000000011920929, z: -0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid6
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: 0.038326763, y: -0.0000000011920929, z: -0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid7
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: 0.044255957, y: -0.0000000011920929, z: -1.0967622e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid8
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: 0.038326763, y: -0.0000000011920929, z: 0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid9
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: 0.022127979, y: -0.0000000011920929, z: 0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid10
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0, y: -0.0000000011920929, z: 0.044255957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid11
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0.022127979, y: -0.0000000011920929, z: 0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerMid12
+      parentName: zelda_V001_008:bn_LiquidLayerMid
+      position: {x: -0.038326763, y: -0.0000000011920929, z: 0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot
+      parentName: zelda_V001_008:bn_Liquid
+      position: {x: -0, y: 0.034297828, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot1
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0.044255957, y: -0.0000000011920929, z: -1.0967622e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot2
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0.038326763, y: -0.0000000011920929, z: -0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot3
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0.022127979, y: -0.0000000011920929, z: -0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot4
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0, y: -0.0000000011920929, z: -0.044255957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot5
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: 0.022127979, y: -0.0000000011920929, z: -0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot6
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: 0.038326763, y: -0.0000000011920929, z: -0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot7
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: 0.044255957, y: -0.0000000011920929, z: -1.0967622e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot8
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: 0.038326763, y: -0.0000000011920929, z: 0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot9
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: 0.022127979, y: -0.0000000011920929, z: 0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot10
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0, y: -0.0000000011920929, z: 0.044255957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot11
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0.022127979, y: -0.0000000011920929, z: 0.038326763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_LiquidLayerBot12
+      parentName: zelda_V001_008:bn_LiquidLayerBot
+      position: {x: -0.038326763, y: -0.0000000011920929, z: 0.022127979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Cork
+      parentName: zelda_V001_008:bn_Bottle
+      position: {x: -0, y: 0.10940202, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Tag
+      parentName: zelda_V001_008:bn_Bottle
+      position: {x: 0.017381296, y: 0.058140147, z: 0.043306913}
+      rotation: {x: -0.23117565, y: 0.18047799, z: 0.080550715, w: 0.95262647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Apple
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_AppleStem
+      parentName: zelda_V001_008:bn_Apple
+      position: {x: -0, y: 0.046290334, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_SlateRoot
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: 0.13534763, y: 1.0810009, z: 0.034300722}
+      rotation: {x: -0.074461885, y: 0.660189, z: 0.12729365, w: 0.73647964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Slate
+      parentName: zelda_V001_008:bn_SlateRoot
+      position: {x: -0, y: -0.1057505, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Torch
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_TorchFire
+      parentName: zelda_V001_008:bn_Torch
+      position: {x: -0, y: 0, z: 0.1950348}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_book
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookSpine
+      parentName: zelda_V001_008:bn_book
+      position: {x: -0, y: 0, z: 0.11316729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Book_L
+      parentName: zelda_V001_008:bn_BookSpine
+      position: {x: -0.019580496, y: 0, z: -0.0046126936}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookCover_L
+      parentName: zelda_V001_008:bn_Book_L
+      position: {x: 7.105427e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageA_L
+      parentName: zelda_V001_008:bn_Book_L
+      position: {x: 0.0046126936, y: 0, z: -0.010749886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageA1_L
+      parentName: zelda_V001_008:bn_BookPageA_L
+      position: {x: -0.12005759, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageB_L
+      parentName: zelda_V001_008:bn_Book_L
+      position: {x: 0.0046126936, y: 0, z: -0.018207477}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageB1_L
+      parentName: zelda_V001_008:bn_BookPageB_L
+      position: {x: -0.12005759, y: 0, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageC_L
+      parentName: zelda_V001_008:bn_Book_L
+      position: {x: 0.0046126936, y: 0, z: -0.019096045}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageC1_L
+      parentName: zelda_V001_008:bn_BookPageC_L
+      position: {x: -0.12005759, y: 0, z: 3.1225022e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Book_R
+      parentName: zelda_V001_008:bn_BookSpine
+      position: {x: 0.0195805, y: 0, z: -0.0046122954}
+      rotation: {x: 0.7071068, y: 4.3297806e-17, z: -0.7071068, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookCover_R
+      parentName: zelda_V001_008:bn_Book_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageA_R
+      parentName: zelda_V001_008:bn_Book_R
+      position: {x: -0.0046122954, y: 1.3164818e-18, z: 0.01074989}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageA1_R
+      parentName: zelda_V001_008:bn_BookPageA_R
+      position: {x: 0.12005759, y: 6.039716e-33, z: 4.9960035e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageB_R
+      parentName: zelda_V001_008:bn_Book_R
+      position: {x: -0.0046122954, y: 2.229773e-18, z: 0.01820748}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageB1_R
+      parentName: zelda_V001_008:bn_BookPageB_R
+      position: {x: 0.12005759, y: 4.005934e-33, z: 2.7755575e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageC_R
+      parentName: zelda_V001_008:bn_Book_R
+      position: {x: -0.0046122954, y: 2.3385914e-18, z: 0.019096047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookPageC1_R
+      parentName: zelda_V001_008:bn_BookPageC_R
+      position: {x: 0.12005759, y: 3.435859e-33, z: -2.7755575e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookSub_L
+      parentName: zelda_V001_008:bn_BookSpine
+      position: {x: -0.019580496, y: 0, z: -0.0046126936}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BookSub_R
+      parentName: zelda_V001_008:bn_BookSpine
+      position: {x: 0.0195805, y: 0, z: -0.0046122954}
+      rotation: {x: 0.7071068, y: -4.3297806e-17, z: -0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Bow
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: 0.10072446, y: 1.1045401, z: -0.18833528}
+      rotation: {x: -0.37212783, y: 0.51237756, z: 0.4322186, w: 0.6420103}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BowUpper
+      parentName: zelda_V001_008:bn_Bow
+      position: {x: -7.105427e-17, y: 1.4210854e-16, z: 0.053428676}
+      rotation: {x: 0.66728544, y: -0, z: -0, w: 0.7448021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BowUpper1
+      parentName: zelda_V001_008:bn_BowUpper
+      position: {x: -1.4210854e-16, y: 0.222941, z: -3.5527136e-17}
+      rotation: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_RopeTop
+      parentName: zelda_V001_008:bn_BowUpper1
+      position: {x: -1.4210854e-16, y: 0.32374892, z: -0.021907005}
+      rotation: {x: 0.13664345, y: -0.13664345, z: 0.6937785, w: 0.6937785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BowLower
+      parentName: zelda_V001_008:bn_Bow
+      position: {x: -7.105427e-17, y: -3.5527136e-17, z: -0.053428702}
+      rotation: {x: -4.085945e-17, y: 0.66728544, z: 0.7448021, w: -4.5605974e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_BowLower1
+      parentName: zelda_V001_008:bn_BowLower
+      position: {x: -2.1316282e-16, y: -0.2229413, z: 2.1316282e-16}
+      rotation: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_RopeBot
+      parentName: zelda_V001_008:bn_BowLower1
+      position: {x: -7.105427e-17, y: -0.32374796, z: 0.021911867}
+      rotation: {x: -0.6937785, y: 0.6937785, z: 0.13664345, w: 0.13664345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_RopeMid
+      parentName: zelda_V001_008:bn_Bow
+      position: {x: -0, y: 0.16744208, z: 0.0000012024201}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Harp
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord_L
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: -0.0104710115, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord1_L
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: -0.0317547, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord2_L
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: -0.053570475, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord3_L
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: -0.07503153, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord_R
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: 0.01047, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord1_R
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: 0.031749997, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord2_R
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: 0.05357, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_HarpCord3_R
+      parentName: zelda_V001_008:bn_Harp
+      position: {x: 0.07503, y: 0.0045309532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_Pelvis
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: -0, y: 1.0316707, z: 0.023345986}
+      rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: zelda_V001_008:Bip001_Pouch
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: -0.06284987, y: -0.061021417, z: -0.07400177}
+      rotation: {x: 0.43097612, y: -0.2915186, z: 0.4224695, w: 0.7421564}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Anchor_DaggerHip
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.04670356, y: 0.12853208, z: -0.103429556}
+      rotation: {x: 0.27240494, y: 0.68119895, z: 0.26613232, w: 0.62524974}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Anchor_SlateHip
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: -0.049330205, y: 0.13534763, z: 0.010954735}
+      rotation: {x: -0.51947653, y: 0.41417164, z: 0.61077994, w: 0.4307596}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: zelda_V001_008:bn_Quiver
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.12233422, y: -0.032441866, z: -0.15221722}
+      rotation: {x: 0.0057632616, y: 0.02785848, z: 0.81389606, w: 0.5803137}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: zelda_V001_008:bn_Arrow_01
+      parentName: zelda_V001_008:bn_Quiver
+      position: {x: 0.17694135, y: 0.007923587, z: -7.105427e-17}
+      rotation: {x: -0.0000001778826, y: -0.7071068, z: -0.00000017625278, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:bn_Arrow_02
+      parentName: zelda_V001_008:bn_Quiver
+      position: {x: 0.1773145, y: 0.035746478, z: 0.00016444911}
+      rotation: {x: 0.0657719, y: -0.6960824, z: -0.0130936, w: 0.714823}
+      scale: {x: 0.9999996, y: 1.0000001, z: 0.9999997}
+    - name: zelda_V001_008:bn_Arrow_03
+      parentName: zelda_V001_008:bn_Quiver
+      position: {x: 0.19775833, y: -0.017848555, z: 0.007064275}
+      rotation: {x: -0.03181316, y: -0.7171329, z: -0.043115307, w: 0.6948737}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Belt
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.030174809, y: -0.1525835, z: 0.007757263}
+      rotation: {x: -0, y: -0, z: 0.99267197, w: 0.12084009}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Spine
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: -0.06527424, y: 1.4493793e-17, z: -4.440892e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: zelda_V001_008:Bip001_Spine1
+      parentName: zelda_V001_008:Bip001_Spine
+      position: {x: -0.06527424, y: 1.4493793e-17, z: 1.3322676e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:Bip001_Spine2
+      parentName: zelda_V001_008:Bip001_Spine1
+      position: {x: -0.06527424, y: 1.4493793e-17, z: -4.440892e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:Bip001_Spine3
+      parentName: zelda_V001_008:Bip001_Spine2
+      position: {x: -0.06527424, y: 1.4493793e-17, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:Bip001_Shawl_C
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.1177712, y: 2.6150458e-17, z: -0.10905641}
+      rotation: {x: 0.11946702, y: -0.6969417, z: 0.6969417, w: 0.11946702}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cape_L
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.0056023416, y: -0.16429174, z: -0.12810038}
+      rotation: {x: 0.07845238, y: -0.70274127, z: 0.70274127, w: 0.07845238}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: zelda_V001_008:Bip001_Cape1_L
+      parentName: zelda_V001_008:Bip001_Cape_L
+      position: {x: -0.16413015, y: 0, z: 3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape2_L
+      parentName: zelda_V001_008:Bip001_Cape1_L
+      position: {x: -0.17253415, y: 4.2632563e-16, z: -1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape3_L
+      parentName: zelda_V001_008:Bip001_Cape2_L
+      position: {x: -0.18502149, y: -9.237055e-16, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape_C
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.0056023416, y: 2.7219003e-18, z: -0.12810038}
+      rotation: {x: 0.07845029, y: -0.7027415, z: 0.7027415, w: 0.07845029}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Cape1_C
+      parentName: zelda_V001_008:Bip001_Cape_C
+      position: {x: -0.16413015, y: 0, z: -3.3269274e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape2_C
+      parentName: zelda_V001_008:Bip001_Cape1_C
+      position: {x: -0.17253415, y: 4.2632563e-16, z: -3.3496682e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape3_C
+      parentName: zelda_V001_008:Bip001_Cape2_C
+      position: {x: -0.18502149, y: -9.769963e-16, z: -4.000579e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape_R
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.0056023416, y: 0.16429001, z: -0.12810038}
+      rotation: {x: 0.07845238, y: -0.70274127, z: 0.70274127, w: 0.07845238}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: zelda_V001_008:Bip001_Cape1_R
+      parentName: zelda_V001_008:Bip001_Cape_R
+      position: {x: -0.16413015, y: -1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape2_R
+      parentName: zelda_V001_008:Bip001_Cape1_R
+      position: {x: -0.17253415, y: 4.973799e-16, z: -1.0658141e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Cape3_R
+      parentName: zelda_V001_008:Bip001_Cape2_R
+      position: {x: -0.18502149, y: -8.5265126e-16, z: 3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_ShawlClip_L
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.06883582, y: -0.025483638, z: 0.067088485}
+      rotation: {x: -0.34202048, y: -0, z: 0.9396925, w: -0.000000029802319}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_ShawlClipCord_L
+      parentName: zelda_V001_008:Bip001_ShawlClip_L
+      position: {x: -0.008787435, y: 8.881784e-18, z: 1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_ShawlClip_R
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.06883582, y: 0.025515381, z: 0.067088485}
+      rotation: {x: -0.34202048, y: -0, z: 0.9396925, w: -0.000000029802319}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Anchor_SwordBack
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.20525602, y: 0.22679862, z: -0.099541664}
+      rotation: {x: 0.75292164, y: -0.1852914, z: 0.5953081, w: 0.21067579}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000008}
+    - name: zelda_V001_008:Bip001_Anchor_SheildBack
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: 0.11045114, y: -0.04965035, z: -0.20801775}
+      rotation: {x: -0.6459184, y: 0.75357884, z: 0.049958773, w: -0.111411355}
+      scale: {x: 1.0000006, y: 1, z: 1.0000007}
+    - name: zelda_V001_008:Bip001_Anchor_RodBack
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: 0.09175652, y: 0.061750676, z: -0.18283023}
+      rotation: {x: 0.73065704, y: -0.18190311, z: 0.54284364, w: 0.37198433}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Anchor_BowBack
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: 0.18822753, y: 0.10072446, z: -0.21168126}
+      rotation: {x: -0.62543994, y: 0.099171296, z: 0.75959444, w: 0.14834489}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_CloakFrt_L
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.03921087, y: -0.0071996176, z: 0.09125825}
+      rotation: {x: -0.17101014, y: 0.0301537, z: 0.96984637, w: 0.17100999}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: zelda_V001_008:Bip001_CloakFrt1_L
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.053718865, y: -0.13243997, z: 0.036900822}
+      rotation: {x: -0.1729873, y: 0.015134422, z: 0.98106027, w: 0.085831515}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: zelda_V001_008:Bip001_CloakFrt_R
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.039212342, y: 0.00719962, z: 0.09125801}
+      rotation: {x: 0.96984637, y: 0.17100987, z: 0.1710101, w: -0.030153684}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999976}
+    - name: zelda_V001_008:Bip001_CloakFrt1_R
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.05372234, y: 0.13244, z: 0.03690081}
+      rotation: {x: 0.98106027, y: 0.085831515, z: 0.1729873, w: -0.01513443}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_CapeTopCenter
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.05298734, y: 2.4563445e-18, z: -0.11738724}
+      rotation: {x: 0.07845029, y: -0.7027415, z: 0.7027415, w: 0.07845029}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Neck
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.13140059, y: 2.917679e-17, z: -0.028944965}
+      rotation: {x: -0.704497, y: 0.060696483, z: 0.060696445, w: 0.704497}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Head
+      parentName: zelda_V001_008:Bip001_Neck
+      position: {x: -0.08826009, y: 0, z: 1.9597677e-17}
+      rotation: {x: -0, y: 0.000000026077029, z: 0.08583776, w: -0.9963091}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_HairLong_C
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.032597646, y: 0.09366243, z: -2.5643846e-17}
+      rotation: {x: -0.15715367, y: 0.9875742, z: -3.1667714e-16, w: -1.8749295e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong1_C
+      parentName: zelda_V001_008:Bip001_HairLong_C
+      position: {x: -0.060371768, y: 0, z: -1.2621774e-31}
+      rotation: {x: 1.6475924e-33, y: -1.2544943e-17, z: -0.1129948, w: 0.9935956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong2_C
+      parentName: zelda_V001_008:Bip001_HairLong1_C
+      position: {x: -0.12031675, y: 2.842171e-16, z: -2.0034682e-17}
+      rotation: {x: 1.2105997e-34, y: -7.222688e-19, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong3_C
+      parentName: zelda_V001_008:Bip001_HairLong2_C
+      position: {x: -0.108891875, y: 7.105427e-17, z: -2.3864027e-17}
+      rotation: {x: -1.9392149e-34, y: 1.2268734e-17, z: 0.11685204, w: 0.99314934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong4_C
+      parentName: zelda_V001_008:Bip001_HairLong3_C
+      position: {x: -0.08705711, y: -2.842171e-16, z: -3.771631e-18}
+      rotation: {x: 3.9525505e-33, y: 1.7249937e-17, z: 0.0471395, w: 0.9988883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong5_C
+      parentName: zelda_V001_008:Bip001_HairLong4_C
+      position: {x: -0.101896055, y: -1.4210854e-16, z: 3.511493e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.032597646, y: 0.09366243, z: -0.07496796}
+      rotation: {x: -0.15715367, y: 0.9875742, z: -3.1667714e-16, w: -1.8749295e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong1_L
+      parentName: zelda_V001_008:Bip001_HairLong_L
+      position: {x: -0.060371768, y: 0, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0.1129948, w: 0.9935956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong2_L
+      parentName: zelda_V001_008:Bip001_HairLong1_L
+      position: {x: -0.12031675, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong3_L
+      parentName: zelda_V001_008:Bip001_HairLong2_L
+      position: {x: -0.108891875, y: 0, z: -3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.11685204, w: 0.99314934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong4_L
+      parentName: zelda_V001_008:Bip001_HairLong3_L
+      position: {x: -0.08705711, y: -7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: 0, y: 0, z: 0.0471395, w: 0.9988883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong5_L
+      parentName: zelda_V001_008:Bip001_HairLong4_L
+      position: {x: -0.101896055, y: -1.0658141e-16, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.032597646, y: 0.09366243, z: 0.07497}
+      rotation: {x: -0.15715367, y: 0.9875742, z: -3.1667714e-16, w: -1.8749295e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong1_R
+      parentName: zelda_V001_008:Bip001_HairLong_R
+      position: {x: -0.060371768, y: 7.105427e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0.1129948, w: 0.9935956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong2_R
+      parentName: zelda_V001_008:Bip001_HairLong1_R
+      position: {x: -0.12031675, y: 2.842171e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong3_R
+      parentName: zelda_V001_008:Bip001_HairLong2_R
+      position: {x: -0.108891875, y: -1.4210854e-16, z: -4.4408918e-17}
+      rotation: {x: 0, y: 0, z: 0.11685204, w: 0.99314934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong4_R
+      parentName: zelda_V001_008:Bip001_HairLong3_R
+      position: {x: -0.08705711, y: -7.105427e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.0471395, w: 0.9988883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLong5_R
+      parentName: zelda_V001_008:Bip001_HairLong4_R
+      position: {x: -0.101896055, y: -3.5527136e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongFrt_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.031303618, y: 0.03784324, z: -0.087704234}
+      rotation: {x: -0.15076105, y: 0.98507243, z: -0.012569734, w: -0.08213062}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongFrt1_L
+      parentName: zelda_V001_008:Bip001_HairLongFrt_L
+      position: {x: -0.06479601, y: 7.105427e-17, z: 0}
+      rotation: {x: -3.0849048e-32, y: -1.842635e-16, z: -0.047052555, w: 0.9988924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongFrt2_L
+      parentName: zelda_V001_008:Bip001_HairLongFrt1_L
+      position: {x: -0.06907109, y: 7.105427e-17, z: -7.105427e-17}
+      rotation: {x: 0.39132482, y: 0.5889524, z: -0.39132482, w: 0.5889524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongFrt_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.031303618, y: 0.03784324, z: 0.0877}
+      rotation: {x: -0.15076105, y: 0.98507243, z: 0.01256967, w: 0.0821302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongFrt1_R
+      parentName: zelda_V001_008:Bip001_HairLongFrt_R
+      position: {x: -0.06479601, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0.047052555, w: 0.9988924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongFrt2_R
+      parentName: zelda_V001_008:Bip001_HairLongFrt1_R
+      position: {x: -0.06907109, y: 7.105427e-17, z: -7.105427e-17}
+      rotation: {x: 0.39132482, y: 0.5889524, z: -0.39132482, w: 0.5889524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.032597646, y: 0.09366243, z: -0.094509535}
+      rotation: {x: -0.13980895, y: 0.9895633, z: -0.0048822365, w: -0.03455631}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB1_L
+      parentName: zelda_V001_008:Bip001_HairLongB_L
+      position: {x: -0.060371768, y: 7.105427e-17, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0.1129948, w: 0.9935956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB2_L
+      parentName: zelda_V001_008:Bip001_HairLongB1_L
+      position: {x: -0.12031675, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB3_L
+      parentName: zelda_V001_008:Bip001_HairLongB2_L
+      position: {x: -0.108891875, y: 7.105427e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0.11685204, w: 0.99314934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB4_L
+      parentName: zelda_V001_008:Bip001_HairLongB3_L
+      position: {x: -0.08705711, y: -7.105427e-17, z: 3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.0471395, w: 0.9988883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB5_L
+      parentName: zelda_V001_008:Bip001_HairLongB4_L
+      position: {x: -0.101896055, y: -8.8817837e-17, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.032597646, y: 0.09366243, z: 0.09451}
+      rotation: {x: -0.13980895, y: 0.9895633, z: 0.0048822365, w: 0.03455631}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB1_R
+      parentName: zelda_V001_008:Bip001_HairLongB_R
+      position: {x: -0.060371768, y: 2.1316282e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0.1129948, w: 0.9935956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB2_R
+      parentName: zelda_V001_008:Bip001_HairLongB1_R
+      position: {x: -0.12031675, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB3_R
+      parentName: zelda_V001_008:Bip001_HairLongB2_R
+      position: {x: -0.108891875, y: 2.842171e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.11685204, w: 0.99314934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB4_R
+      parentName: zelda_V001_008:Bip001_HairLongB3_R
+      position: {x: -0.08705711, y: -2.4868996e-16, z: 1.0658141e-16}
+      rotation: {x: 0, y: 0, z: 0.0471395, w: 0.9988883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongB5_R
+      parentName: zelda_V001_008:Bip001_HairLongB4_R
+      position: {x: -0.101896055, y: -1.4210854e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongSide_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.044317313, y: 0.07294819, z: -0.10776769}
+      rotation: {x: -0.13912782, y: 0.9847422, z: -0.014622923, w: -0.103500575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongSide1_L
+      parentName: zelda_V001_008:Bip001_HairLongSide_L
+      position: {x: -0.060371768, y: 7.105427e-17, z: 0}
+      rotation: {x: 0.009848147, y: 0.08659757, z: -0.11256483, w: 0.9898147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongSide2_L
+      parentName: zelda_V001_008:Bip001_HairLongSide1_L
+      position: {x: -0.049999997, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongSide_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.044317313, y: 0.07294819, z: 0.10777}
+      rotation: {x: -0.13912782, y: 0.9847422, z: 0.014622923, w: 0.103500575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongSide1_R
+      parentName: zelda_V001_008:Bip001_HairLongSide_R
+      position: {x: -0.060371768, y: 1.4210854e-16, z: -2.1316282e-16}
+      rotation: {x: -0.009848147, y: -0.08659757, z: -0.11256483, w: 0.9898147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairLongSide2_R
+      parentName: zelda_V001_008:Bip001_HairLongSide1_R
+      position: {x: -0.049999997, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairStrand_C
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.046607096, y: 0.14881434, z: -0.04519916}
+      rotation: {x: -0.15715367, y: 0.9875742, z: -2.79757e-16, w: 4.451801e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairStrand1_C
+      parentName: zelda_V001_008:Bip001_HairStrand_C
+      position: {x: -0.060371768, y: -7.105427e-17, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0.22811653, w: 0.9736339}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairStrand2_C
+      parentName: zelda_V001_008:Bip001_HairStrand1_C
+      position: {x: -0.12031675, y: 1.4210854e-16, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.106565155, w: 0.99430573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_HairBack_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.05731272, y: 0.084592074, z: -0.10634259}
+      rotation: {x: -0.070438504, y: 0.99751616, z: 0.00000006345865, w: 0.000000020771317}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_HairBack_C
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.06776704, y: 0.1558715, z: -4.025266e-17}
+      rotation: {x: -0.070438504, y: 0.99751616, z: 0.00000006345865, w: 0.000000020771317}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_HairBack_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.05731272, y: 0.084592074, z: 0.10634}
+      rotation: {x: -0.070438504, y: 0.99751616, z: 0.00000006345865, w: 0.000000020771317}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Hair_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.054772332, y: -0.028069038, z: -0.08411111}
+      rotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 2.5526248e-10}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Hair1_L
+      parentName: zelda_V001_008:Bip001_Hair_L
+      position: {x: -0.09451856, y: -5.3290704e-17, z: 4.440892e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:Bip001_Hair_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.054772332, y: -0.028069038, z: 0.08411}
+      rotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 2.5526248e-10}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Hair1_R
+      parentName: zelda_V001_008:Bip001_Hair_R
+      position: {x: -0.09451856, y: -5.3290704e-17, z: 4.440892e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:Bip001_BrowInner_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.071702525, y: -0.08963102, z: -0.019063879}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_BrowInner_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.071702525, y: -0.08963102, z: 0.019063879}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_BrowMid_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.07916458, y: -0.08051503, z: -0.050671775}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_BrowMid_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.07916458, y: -0.08051503, z: 0.050671775}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_BrowOuter_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.078602634, y: -0.057589177, z: -0.07367737}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_BrowOuter_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.078602634, y: -0.057589177, z: 0.07367737}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_EyelidUp_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.04845211, y: -0.04944413, z: -0.041258574}
+      rotation: {x: -0.36100802, y: 0.65699595, z: -0.2614502, w: -0.60800767}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_EyelidUp1_L
+      parentName: zelda_V001_008:Bip001_EyelidUp_L
+      position: {x: -0, y: 0, z: 0.022797592}
+      rotation: {x: 0.000000014901159, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_eyelidUpperIn_L
+      parentName: zelda_V001_008:Bip001_EyelidUp_L
+      position: {x: 0.01622834, y: -0.0071501816, z: 0.020710966}
+      rotation: {x: 0.000000014901159, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_eyelidUpperMid_L
+      parentName: zelda_V001_008:Bip001_EyelidUp_L
+      position: {x: -0.0025126892, y: -0.0014482402, z: 0.022520449}
+      rotation: {x: 0.000000014901159, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_eyelidUpperOut_L
+      parentName: zelda_V001_008:Bip001_EyelidUp_L
+      position: {x: -0.021246819, y: -0.0026984042, z: 0.013906905}
+      rotation: {x: 0.000000014901159, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_EyelidUp_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.048452266, y: -0.04944412, z: 0.0412586}
+      rotation: {x: -0.6569958, y: -0.3610084, z: -0.6080075, w: 0.26145053}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_EyelidUp1_R
+      parentName: zelda_V001_008:Bip001_EyelidUp_R
+      position: {x: -0.00000006180652, y: -0.00000013158453, z: -0.022797665}
+      rotation: {x: -0, y: -0, z: 0.000000014901159, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_eyelidUpperIn_R
+      parentName: zelda_V001_008:Bip001_EyelidUp_R
+      position: {x: -0.016228367, y: 0.007150286, z: -0.020710886}
+      rotation: {x: 0.00000019371507, y: 0.000000104308114, z: 0.00000008940696, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_eyelidUpperMid_R
+      parentName: zelda_V001_008:Bip001_EyelidUp_R
+      position: {x: 0.0025126617, y: 0.0014483366, z: -0.02252036}
+      rotation: {x: -0, y: -0, z: 0.000000014901159, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000007}
+    - name: zelda_V001_008:Bip001_eyelidUpperOut_R
+      parentName: zelda_V001_008:Bip001_EyelidUp_R
+      position: {x: 0.021246793, y: 0.002698508, z: -0.013906818}
+      rotation: {x: -0, y: -0, z: 0.000000014901159, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000007}
+    - name: zelda_V001_008:Bip001_EyelidDown_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.04845211, y: -0.04944413, z: -0.041258574}
+      rotation: {x: -0.6888173, y: 0.26557076, z: -0.6553413, w: -0.15978318}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_EyelidDown1_L
+      parentName: zelda_V001_008:Bip001_EyelidDown_L
+      position: {x: -0, y: 0, z: 0.022797592}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_eyelidLowerIn_L
+      parentName: zelda_V001_008:Bip001_EyelidDown_L
+      position: {x: 0.016620226, y: 0.004740095, z: 0.024953898}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_eyelidLowerMid_L
+      parentName: zelda_V001_008:Bip001_EyelidDown_L
+      position: {x: -0.0017397251, y: 0.0016942413, z: 0.026277196}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_eyelidLowerOut_L
+      parentName: zelda_V001_008:Bip001_EyelidDown_L
+      position: {x: -0.0221808, y: 0.00071060186, z: 0.016140655}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_EyelidDown_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.048452266, y: -0.04944412, z: 0.0412586}
+      rotation: {x: -0.26557064, y: -0.6888174, z: -0.1597831, w: 0.6553413}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_EyelidDown1_R
+      parentName: zelda_V001_008:Bip001_EyelidDown_R
+      position: {x: -0.00000004808678, y: 0.0000015449577, z: -0.022799721}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_eyelidLowerIn_R
+      parentName: zelda_V001_008:Bip001_EyelidDown_R
+      position: {x: -0.016620252, y: -0.004740039, z: -0.024954021}
+      rotation: {x: 0.000000029802322, y: -0, z: -0.000000029802322, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 0.9999998}
+    - name: zelda_V001_008:Bip001_eyelidLowerMid_R
+      parentName: zelda_V001_008:Bip001_EyelidDown_R
+      position: {x: 0.0017396979, y: -0.0016941833, z: -0.02627732}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999997}
+    - name: zelda_V001_008:Bip001_eyelidLowerOut_R
+      parentName: zelda_V001_008:Bip001_EyelidDown_R
+      position: {x: 0.022180773, y: -0.0007105254, z: -0.016140781}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999997}
+    - name: zelda_V001_008:Bip001_Eye_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.04845211, y: -0.04944413, z: -0.041258574}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_Eye_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.048452266, y: -0.04944412, z: 0.0412586}
+      rotation: {x: -0.5000004, y: 0.49999976, z: -0.50000036, w: -0.49999958}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: zelda_V001_008:Bip001_eyeSpec_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.051610608, y: -0.07182945, z: -0.03381523}
+      rotation: {x: 0.013960157, y: 0.2355379, z: -0.7291017, w: -0.64244676}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_eyeSpec1_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.056082085, y: -0.0700824, z: -0.038266018}
+      rotation: {x: 0.04579078, y: 0.38384178, z: -0.6831098, w: -0.6196206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_eyeSpec2_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.054008108, y: -0.06590826, z: -0.050369695}
+      rotation: {x: -0.16353782, y: 0.12158042, z: -0.74579847, w: -0.63423836}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_eyeSpec3_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.037180442, y: -0.0638732, z: -0.04932434}
+      rotation: {x: -0.38531494, y: -0.15333328, z: -0.6859169, w: -0.597946}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_eyeSpec_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.050387528, y: -0.071989946, z: 0.034225475}
+      rotation: {x: 0.035182897, y: 0.0020870857, z: -0.734632, w: -0.67754984}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_eyeSpec1_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.056921165, y: -0.067255355, z: 0.046909492}
+      rotation: {x: -0.04622365, y: -0.38347664, z: -0.683096, w: -0.61982983}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_eyeSpec2_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.05170246, y: -0.066267475, z: 0.049885005}
+      rotation: {x: -0.057646297, y: -0.25550246, z: -0.7395073, w: -0.6201004}
+      scale: {x: 1, y: 1.0000001, z: 1.0000007}
+    - name: zelda_V001_008:Bip001_eyeSpec3_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.03759837, y: -0.068044156, z: 0.03746007}
+      rotation: {x: 0.38509375, y: 0.1536742, z: -0.68585336, w: -0.59807384}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_Jaw
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.0034523122, y: -0.023651915, z: 8.042681e-18}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Chin
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: 2.0309754e-17, y: -0.052596193, z: 0.043862183}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_LipLower_C
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: 2.2890404e-17, y: -0.028315876, z: 0.06004852}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_LipLower1_L
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: -0.011299777, y: -0.028006027, z: 0.05588203}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_LipLower1_R
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: 0.011299777, y: -0.028006027, z: 0.05588203}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_LipLower2_L
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: -0.019079205, y: -0.02757333, z: 0.05140712}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_LipLower2_R
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: 0.019079205, y: -0.02757333, z: 0.05140712}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_TeethLower
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: 1.6906931e-17, y: -0.033740245, z: 0.039955802}
+      rotation: {x: 0.000000029802315, y: 0.70710677, z: 0.000000008004026, w: 0.7071067}
+      scale: {x: 1.0000005, y: 1, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_Tongue
+      parentName: zelda_V001_008:Bip001_Jaw
+      position: {x: 3.634753e-18, y: -0.046891894, z: -0.004996432}
+      rotation: {x: -0.2784162, y: 0.64998806, z: -0.2784162, w: 0.649988}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_Tongue1
+      parentName: zelda_V001_008:Bip001_Tongue
+      position: {x: -0.010682076, y: 1.4210854e-16, z: 2.3718974e-18}
+      rotation: {x: 0.000000059604638, y: -0, z: 0.27458557, w: 0.96156263}
+      scale: {x: 1.0000017, y: 0.9999983, z: 1}
+    - name: zelda_V001_008:Bip001_Tongue2
+      parentName: zelda_V001_008:Bip001_Tongue1
+      position: {x: -0.021714186, y: -2.842171e-16, z: 3.999166e-18}
+      rotation: {x: -0.00000005478989, y: 0.00000002346873, z: 0.1262006, w: 0.99200475}
+      scale: {x: 1.0000007, y: 0.99999946, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Tongue3
+      parentName: zelda_V001_008:Bip001_Tongue2
+      position: {x: -0.020418426, y: 7.65079e-17, z: 8.204695e-19}
+      rotation: {x: -0, y: -0, z: 1.2858492e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_LipUpper_C
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.020274865, y: -0.08613113, z: 2.462899e-17}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_LipUpper1_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.021100692, y: -0.08153588, z: -0.011920286}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_LipUpper1_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.021100692, y: -0.08153588, z: 0.011920286}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_LipUpper2_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.022017585, y: -0.076939, z: -0.01920278}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_LipUpper2_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.022017585, y: -0.076939, z: 0.01920278}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_LipCorner_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.02292978, y: -0.07482734, z: -0.021472067}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_LipCorner_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.02292978, y: -0.07482734, z: 0.021472067}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cheek_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.02381553, y: -0.07504812, z: -0.024870006}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cheek_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.02381553, y: -0.07504812, z: 0.024870006}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cheek1_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.020926325, y: -0.053228404, z: -0.06741192}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cheek1_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.020926325, y: -0.053228404, z: 0.06741192}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cheek2_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.016188448, y: -0.05123389, z: -0.057941753}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Cheek2_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.016188448, y: -0.05123389, z: 0.057941753}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Smile_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.0013604991, y: -0.080135256, z: -0.021278616}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Smile_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.0013604991, y: -0.080135256, z: 0.021278616}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Frown_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.03250378, y: -0.064047724, z: -0.032856513}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Frown_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.03250378, y: -0.064047724, z: 0.032856513}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_TeethUpper
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: 0.0163057, y: -0.06574785, z: 1.8595253e-17}
+      rotation: {x: 0.000000010025981, y: 0.000000016008052, z: -0.70710677, w: -0.7071067}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Nostril_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.0014580953, y: -0.08995193, z: -0.009381674}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Nostril_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.0014580953, y: -0.08995193, z: 0.009381674}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Nose
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.0054576932, y: -0.09231072, z: 3.0904712e-17}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Ear_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.034406397, y: -0.0045812395, z: -0.08082264}
+      rotation: {x: -0.670052, y: 0.57424194, z: -0.22589934, w: -0.41260886}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Ear_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.034402266, y: -0.0045812223, z: 0.0808226}
+      rotation: {x: -0.57424194, y: -0.670052, z: -0.41260883, w: 0.22589941}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000008}
+    - name: zelda_V001_008:Bip001_BrowFlesh_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.072972186, y: -0.074939676, z: -0.04787156}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_BrowFlesh_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.072972186, y: -0.074939676, z: 0.04787}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_EyelidCrevace_L
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.06910434, y: -0.074939676, z: -0.032661095}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_EyelidCrevace_R
+      parentName: zelda_V001_008:Bip001_Head
+      position: {x: -0.06910434, y: -0.074939676, z: 0.03266}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.49999994}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Clavicle_L
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.062058296, y: -0.001, z: -0.0179894}
+      rotation: {x: 0.09028771, y: -0.09028771, z: 0.70131886, w: 0.70131886}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Shawl_L
+      parentName: zelda_V001_008:Bip001_Clavicle_L
+      position: {x: -0.04821767, y: 0.06594115, z: 0.0070871506}
+      rotation: {x: 0.010783057, y: 0.12722997, z: 0.083758436, w: 0.9882716}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_ShawlFrt_L
+      parentName: zelda_V001_008:Bip001_Clavicle_L
+      position: {x: -0.04821767, y: 0.06594115, z: 0.0070871506}
+      rotation: {x: 0.010783057, y: 0.12722997, z: 0.083758436, w: 0.9882716}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_UpperArm_L
+      parentName: zelda_V001_008:Bip001_Clavicle_L
+      position: {x: -0.13456546, y: -1.9895197e-15, z: 1.7763568e-17}
+      rotation: {x: 0.04905153, y: 0.12468124, z: 0.01012067, w: 0.990932}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.9999999}
+    - name: zelda_V001_008:Bip001_UpperArm1_L
+      parentName: zelda_V001_008:Bip001_UpperArm_L
+      position: {x: -0.08056332, y: 4.2632563e-16, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0.000000012107192, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_UpperArm2_L
+      parentName: zelda_V001_008:Bip001_UpperArm1_L
+      position: {x: -0.08056332, y: 2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: zelda_V001_008:Bip001_UpperArm3_L
+      parentName: zelda_V001_008:Bip001_UpperArm2_L
+      position: {x: -0.08056332, y: 2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Forearm_L
+      parentName: zelda_V001_008:Bip001_UpperArm3_L
+      position: {x: -0, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0.000000065951696, y: 0.091146246, z: -0.00000009225132, w: 0.9958375}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Forearm1_L
+      parentName: zelda_V001_008:Bip001_Forearm_L
+      position: {x: -0.069922484, y: -1.4210854e-16, z: -1.7763568e-17}
+      rotation: {x: 0.0000000031064142, y: -0.008560709, z: 0.000000016755587, w: 0.9999634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_Forearm2_L
+      parentName: zelda_V001_008:Bip001_Forearm1_L
+      position: {x: -0.069922484, y: -1.4210854e-16, z: 8.881784e-18}
+      rotation: {x: 7.888608e-31, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_Forearm3_L
+      parentName: zelda_V001_008:Bip001_Forearm2_L
+      position: {x: -0.069922484, y: -1.4210854e-16, z: -4.4408918e-17}
+      rotation: {x: -0.011433069, y: -0.01929243, z: -0.0009710049, w: 0.9997481}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Anchor_Sheild
+      parentName: zelda_V001_008:Bip001_Forearm3_L
+      position: {x: 0.029238274, y: 0.013346474, z: -0.007157726}
+      rotation: {x: -0.050213847, y: 0.7769277, z: 0.6232908, w: -0.0732842}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Hand_L
+      parentName: zelda_V001_008:Bip001_Forearm3_L
+      position: {x: -4.2632563e-16, y: -1.4210854e-16, z: 2.6645352e-17}
+      rotation: {x: -0.16446537, y: -0.0457235, z: 0.16696028, w: 0.971074}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Anchor_Wepon_L
+      parentName: zelda_V001_008:Bip001_Hand_L
+      position: {x: -0.08064714, y: -0.025001187, z: -0.0026753985}
+      rotation: {x: 0.03021082, y: 0.0045837346, z: -0.64530015, w: 0.7633179}
+      scale: {x: 0.99999946, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Index_L
+      parentName: zelda_V001_008:Bip001_Hand_L
+      position: {x: -0.01866301, y: 0.0004911553, z: 0.036139578}
+      rotation: {x: 0.18747643, y: 0.009500923, z: 0.009148971, w: 0.98218054}
+      scale: {x: 1.0000005, y: 0.9999991, z: 1.0000008}
+    - name: zelda_V001_008:Bip001_Index1_L
+      parentName: zelda_V001_008:Bip001_Index_L
+      position: {x: -0.06842561, y: 7.105427e-17, z: 5.3290704e-17}
+      rotation: {x: -0.000000014901158, y: 0.0000000018626447, z: 0.01102031, w: 0.99993926}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Index2_L
+      parentName: zelda_V001_008:Bip001_Index1_L
+      position: {x: -0.042138528, y: 2.842171e-16, z: -4.4408918e-17}
+      rotation: {x: -0.0000000147329935, y: 0.000000015943446, z: 0.0035150773, w: 0.9999938}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Index3_L
+      parentName: zelda_V001_008:Bip001_Index2_L
+      position: {x: -0.021069264, y: 7.105427e-17, z: -3.5527136e-17}
+      rotation: {x: -2.3987476e-10, y: -0.000000012209645, z: 0.003515071, w: 0.99999386}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Index4_L
+      parentName: zelda_V001_008:Bip001_Index3_L
+      position: {x: -0.021069264, y: -7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: -0, y: -8.881782e-16, z: -2.9287854e-18, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: zelda_V001_008:Bip001_Middle_L
+      parentName: zelda_V001_008:Bip001_Hand_L
+      position: {x: -0.020551838, y: 0.0029392454, z: 0.012591343}
+      rotation: {x: -0.000016704198, y: -0.0025029473, z: 0.006582359, w: 0.9999752}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1}
+    - name: zelda_V001_008:Bip001_Middle1_L
+      parentName: zelda_V001_008:Bip001_Middle_L
+      position: {x: -0.06725076, y: -7.105427e-17, z: 0}
+      rotation: {x: 0.000000031588563, y: 0.000000021420414, z: 0.011020887, w: 0.9999393}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:Bip001_Middle2_L
+      parentName: zelda_V001_008:Bip001_Middle1_L
+      position: {x: -0.044011347, y: -7.105427e-17, z: 8.881784e-18}
+      rotation: {x: -0.000000100272054, y: -0.000000009494533, z: 0.0035148328, w: 0.9999938}
+      scale: {x: 1.0000005, y: 1.0000008, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Middle3_L
+      parentName: zelda_V001_008:Bip001_Middle2_L
+      position: {x: -0.022942087, y: 2.1316282e-16, z: 2.6645352e-17}
+      rotation: {x: 0.000000018667587, y: -0.0000000014435152, z: 0.003514905, w: 0.9999938}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Middle4_L
+      parentName: zelda_V001_008:Bip001_Middle3_L
+      position: {x: -0.022942087, y: 0, z: 7.9936054e-17}
+      rotation: {x: 1.7763564e-15, y: 1.11022276e-16, z: 2.6946944e-17, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Ring_L
+      parentName: zelda_V001_008:Bip001_Hand_L
+      position: {x: -0.019188333, y: 0.0029392454, z: -0.007101246}
+      rotation: {x: -0.020902125, y: -0.034111336, z: 0.01298096, w: 0.99911517}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Ring1_L
+      parentName: zelda_V001_008:Bip001_Ring_L
+      position: {x: -0.0639187, y: 0, z: 4.440892e-18}
+      rotation: {x: 0.000000005587934, y: -0.000000029802315, z: 0.011020831, w: 0.9999393}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: zelda_V001_008:Bip001_Ring2_L
+      parentName: zelda_V001_008:Bip001_Ring1_L
+      position: {x: -0.042138528, y: -2.1316282e-16, z: 3.9968027e-17}
+      rotation: {x: -0.000000038761833, y: 0.000000022799762, z: 0.0035147693, w: 0.9999938}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Ring3_L
+      parentName: zelda_V001_008:Bip001_Ring2_L
+      position: {x: -0.021069264, y: 1.4210854e-16, z: 2.2204459e-17}
+      rotation: {x: -0.0000000946357, y: 0.000000023611896, z: 0.0035148866, w: 0.9999938}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Ring4_L
+      parentName: zelda_V001_008:Bip001_Ring3_L
+      position: {x: -0.021069264, y: -7.105427e-17, z: -7.105427e-17}
+      rotation: {x: 7.1054257e-15, y: -0, z: 2.2345282e-15, w: 1}
+      scale: {x: 1.0000006, y: 1.000001, z: 1}
+    - name: zelda_V001_008:Bip001_Pinky_L
+      parentName: zelda_V001_008:Bip001_Hand_L
+      position: {x: -0.016855411, y: 0.0029392454, z: -0.028454008}
+      rotation: {x: -0.036496934, y: -0.03868721, z: 0.01770358, w: 0.99842775}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999998}
+    - name: zelda_V001_008:Bip001_Pinky1_L
+      parentName: zelda_V001_008:Bip001_Pinky_L
+      position: {x: -0.058895495, y: 7.105427e-17, z: -3.5527136e-17}
+      rotation: {x: -0.000000011175868, y: -0.000000026077027, z: 0.006625212, w: 0.9999781}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1}
+    - name: zelda_V001_008:Bip001_Pinky2_L
+      parentName: zelda_V001_008:Bip001_Pinky1_L
+      position: {x: -0.035960373, y: -2.1316282e-16, z: -1.0713652e-16}
+      rotation: {x: 0.00000007132117, y: 0.000000055333423, z: 0.00662485, w: 0.9999781}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Pinky3_L
+      parentName: zelda_V001_008:Bip001_Pinky2_L
+      position: {x: -0.020412028, y: -1.4210854e-16, z: 1.7763568e-17}
+      rotation: {x: -0.00000008278171, y: -0.000000046940507, z: 0.0066249133, w: 0.99997807}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1}
+    - name: zelda_V001_008:Bip001_Pinky4_L
+      parentName: zelda_V001_008:Bip001_Pinky3_L
+      position: {x: -0.020412028, y: 0, z: -1.7763568e-17}
+      rotation: {x: 7.105425e-15, y: -0, z: -3.8858157e-15, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Thumb_L
+      parentName: zelda_V001_008:Bip001_Hand_L
+      position: {x: -0.016528955, y: -0.017425938, z: 0.026907891}
+      rotation: {x: 0.81847215, y: 0.4040168, z: -0.10379204, w: 0.3950961}
+      scale: {x: 1.0000007, y: 1.0000006, z: 0.99999887}
+    - name: zelda_V001_008:Bip001_Thumb1_L
+      parentName: zelda_V001_008:Bip001_Thumb_L
+      position: {x: -0.04797094, y: -7.105427e-17, z: 2.4868996e-16}
+      rotation: {x: 0.00000008940697, y: -0.0000001937151, z: 0.2473189, w: 0.96893424}
+      scale: {x: 0.99999875, y: 1.0000027, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Thumb2_L
+      parentName: zelda_V001_008:Bip001_Thumb1_L
+      position: {x: -0.040179618, y: 1.5987211e-16, z: -1.4210854e-16}
+      rotation: {x: -0.000000041915573, y: 0.000000017053662, z: 0.07496543, w: 0.9971862}
+      scale: {x: 0.99999946, y: 1.000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Thumb3_L
+      parentName: zelda_V001_008:Bip001_Thumb2_L
+      position: {x: -0.03192296, y: -3.5527136e-17, z: 0}
+      rotation: {x: -0, y: -1.7763562e-15, z: -0.000000007450577, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_bracelet_L
+      parentName: zelda_V001_008:Bip001_Forearm3_L
+      position: {x: 0.014104568, y: -0.002263583, z: -0.00044783778}
+      rotation: {x: -0.048059814, y: 0.07678097, z: 0.12001223, w: 0.9886314}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Elbow_L
+      parentName: zelda_V001_008:Bip001_UpperArm3_L
+      position: {x: 7.105427e-16, y: -4.2632563e-16, z: 2.842171e-16}
+      rotation: {x: 0.00000008140404, y: 0.04562066, z: -0.000000053563646, w: 0.9989588}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Shoulder_L
+      parentName: zelda_V001_008:Bip001_Clavicle_L
+      position: {x: -0.13456546, y: -1.9895197e-15, z: 1.7763568e-17}
+      rotation: {x: 0.10508348, y: 0.020709038, z: 0.49839404, w: 0.8603093}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.9999999}
+    - name: zelda_V001_008:Bip001_Clavicle_R
+      parentName: zelda_V001_008:Bip001_Spine3
+      position: {x: -0.06206234, y: 0.001, z: -0.017989397}
+      rotation: {x: 0.70131886, y: 0.70131886, z: -0.09028771, w: 0.09028771}
+      scale: {x: 1, y: 1.0000015, z: 1.0000015}
+    - name: zelda_V001_008:Bip001_Shawl_R
+      parentName: zelda_V001_008:Bip001_Clavicle_R
+      position: {x: 0.048217706, y: -0.06594, z: -0.0070871585}
+      rotation: {x: 0.010783047, y: 0.12722999, z: 0.083758436, w: 0.9882716}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_ShawlFrt_R
+      parentName: zelda_V001_008:Bip001_Clavicle_R
+      position: {x: 0.048217706, y: -0.06594, z: -0.0070871585}
+      rotation: {x: 0.010783047, y: 0.12722999, z: 0.083758436, w: 0.9882716}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_UpperArm_R
+      parentName: zelda_V001_008:Bip001_Clavicle_R
+      position: {x: 0.13456583, y: 5.684342e-16, z: -0.000000051397755}
+      rotation: {x: 0.04906786, y: 0.12468151, z: 0.010118541, w: 0.9909311}
+      scale: {x: 0.9999996, y: 1.0000007, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_UpperArm1_R
+      parentName: zelda_V001_008:Bip001_UpperArm_R
+      position: {x: 0.08056557, y: 2.2623681e-13, z: -7.307932e-14}
+      rotation: {x: -0, y: -0.0000000018626451, z: -0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_UpperArm2_R
+      parentName: zelda_V001_008:Bip001_UpperArm1_R
+      position: {x: 0.08056557, y: 2.260947e-13, z: -7.311485e-14}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_UpperArm3_R
+      parentName: zelda_V001_008:Bip001_UpperArm2_R
+      position: {x: 0.08056557, y: 2.2595258e-13, z: -7.31859e-14}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_Forearm_R
+      parentName: zelda_V001_008:Bip001_UpperArm3_R
+      position: {x: 1.4210854e-16, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0.00000067021267, y: 0.09114332, z: -0.000007892042, w: 0.99583775}
+      scale: {x: 0.9999998, y: 1, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Forearm1_R
+      parentName: zelda_V001_008:Bip001_Forearm_R
+      position: {x: 0.069921516, y: -0.0000005127694, z: -0.000000038272983}
+      rotation: {x: -0.000005425634, y: -0.008558006, z: -0.000002513041, w: 0.9999634}
+      scale: {x: 0.9999998, y: 1.0000011, z: 1.0000012}
+    - name: zelda_V001_008:Bip001_Forearm2_R
+      parentName: zelda_V001_008:Bip001_Forearm1_R
+      position: {x: 0.069921516, y: -8.5265126e-16, z: 0}
+      rotation: {x: -0.000005588594, y: 0.0000000074309696, z: -0.0000000027377904,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Forearm3_R
+      parentName: zelda_V001_008:Bip001_Forearm2_R
+      position: {x: 0.069921516, y: -5.684342e-16, z: 8.881784e-18}
+      rotation: {x: 0.011425114, y: 0.044038564, z: -0.87542576, w: 0.4812066}
+      scale: {x: 0.99999946, y: 1.0000015, z: 1.0000012}
+    - name: zelda_V001_008:Bip001_Hand_R
+      parentName: zelda_V001_008:Bip001_Forearm3_R
+      position: {x: -5.684342e-16, y: 3.1974422e-16, z: -1.7763568e-17}
+      rotation: {x: -0.04968749, y: -0.22731467, z: 0.919044, w: 0.31814674}
+      scale: {x: 1.0000017, y: 0.9999998, z: 1.0000011}
+    - name: zelda_V001_008:Bip001_Anchor_Wepon_R
+      parentName: zelda_V001_008:Bip001_Hand_R
+      position: {x: 0.080646314, y: 0.025001744, z: 0.002675761}
+      rotation: {x: -0.7633179, y: 0.6453, z: 0.0045837304, w: 0.030210793}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: zelda_V001_008:Bip001_Index_R
+      parentName: zelda_V001_008:Bip001_Hand_R
+      position: {x: 0.018662738, y: -0.0004910271, z: -0.036139335}
+      rotation: {x: 0.18747647, y: 0.009500944, z: 0.009148805, w: 0.98218054}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Index1_R
+      parentName: zelda_V001_008:Bip001_Index_R
+      position: {x: 0.06842477, y: -0.000000109392964, z: 0.00000004371363}
+      rotation: {x: 0.000000014901163, y: 0.00000080466276, z: 0.0110123055, w: 0.9999394}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Index2_R
+      parentName: zelda_V001_008:Bip001_Index1_R
+      position: {x: 0.04213853, y: 1.8481217e-13, z: 1.9042544e-14}
+      rotation: {x: -0.000000027653254, y: -0.00000089934997, z: 0.00353762, w: 0.9999938}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_Index3_R
+      parentName: zelda_V001_008:Bip001_Index2_R
+      position: {x: 0.021069543, y: 2.5650592e-14, z: -7.0077276e-15}
+      rotation: {x: -0.000000028728595, y: -0.0000009729175, z: 0.0034865825, w: 0.9999939}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000011}
+    - name: zelda_V001_008:Bip001_Index4_R
+      parentName: zelda_V001_008:Bip001_Index3_R
+      position: {x: 0.021069588, y: -3.772982e-14, z: 8.943956e-15}
+      rotation: {x: -0, y: -0, z: -2.7950552e-14, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_Middle_R
+      parentName: zelda_V001_008:Bip001_Hand_R
+      position: {x: 0.020551467, y: -0.0029395407, z: -0.012591253}
+      rotation: {x: -0.000016694888, y: -0.0025029257, z: 0.006582302, w: 0.99997526}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Middle1_R
+      parentName: zelda_V001_008:Bip001_Middle_R
+      position: {x: 0.067250505, y: -0.00000004145513, z: 0.000000017928244}
+      rotation: {x: 0.000000034619006, y: 0.000000028871, z: 0.011020689, w: 0.9999393}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: zelda_V001_008:Bip001_Middle2_R
+      parentName: zelda_V001_008:Bip001_Middle1_R
+      position: {x: 0.04401124, y: 0.00000028590503, z: 0.000000047834526}
+      rotation: {x: 0.000000019980137, y: 0.0000049334167, z: 0.0035039573, w: 0.9999939}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Middle3_R
+      parentName: zelda_V001_008:Bip001_Middle2_R
+      position: {x: 0.022942165, y: -3.1477042e-14, z: -1.3855583e-14}
+      rotation: {x: 0.00000028285655, y: -0.000007981464, z: 0.003534007, w: 0.9999938}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1}
+    - name: zelda_V001_008:Bip001_Middle4_R
+      parentName: zelda_V001_008:Bip001_Middle3_R
+      position: {x: 0.022942368, y: 9.201528e-14, z: 3.5278445e-14}
+      rotation: {x: -2.84217e-14, y: -0, z: 2.2576088e-12, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Ring_R
+      parentName: zelda_V001_008:Bip001_Hand_R
+      position: {x: 0.019187506, y: -0.0029393004, z: 0.0071014464}
+      rotation: {x: -0.020902108, y: -0.034111306, z: 0.012980836, w: 0.99911517}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Ring1_R
+      parentName: zelda_V001_008:Bip001_Ring_R
+      position: {x: 0.06391843, y: -0.000000579501, z: -0.0000002638134}
+      rotation: {x: 0.000000011175871, y: -0.000000011175871, z: 0.011020815, w: 0.9999393}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000013}
+    - name: zelda_V001_008:Bip001_Ring2_R
+      parentName: zelda_V001_008:Bip001_Ring1_R
+      position: {x: 0.042139027, y: 0.00000003883733, z: -0.00000000572648}
+      rotation: {x: 0.000000028015737, y: 0.000005580554, z: 0.0035192682, w: 0.99999386}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Ring3_R
+      parentName: zelda_V001_008:Bip001_Ring2_R
+      position: {x: 0.021069033, y: -3.2187584e-14, z: 4.197309e-14}
+      rotation: {x: 0.00000010029686, y: -0.00002416629, z: 0.0035174568, w: 0.99999386}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Ring4_R
+      parentName: zelda_V001_008:Bip001_Ring3_R
+      position: {x: 0.021069681, y: 2.131628e-15, z: 5.2113867e-15}
+      rotation: {x: -0, y: -0, z: 2.4238027e-12, w: 1}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000007}
+    - name: zelda_V001_008:Bip001_Pinky_R
+      parentName: zelda_V001_008:Bip001_Hand_R
+      position: {x: 0.01685516, y: -0.0029398985, z: 0.028454248}
+      rotation: {x: -0.03649698, y: -0.038688045, z: 0.017710174, w: 0.99842757}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_Pinky1_R
+      parentName: zelda_V001_008:Bip001_Pinky_R
+      position: {x: 0.05889536, y: 3.9641177e-13, z: 6.6042725e-14}
+      rotation: {x: -0.00000012665987, y: 0.00000789389, z: 0.006607419, w: 0.9999782}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000011}
+    - name: zelda_V001_008:Bip001_Pinky2_R
+      parentName: zelda_V001_008:Bip001_Pinky1_R
+      position: {x: 0.035960305, y: -7.155165e-14, z: -4.4020065e-14}
+      rotation: {x: 0.000000025225681, y: -0.000008535661, z: 0.0066486644, w: 0.99997795}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Pinky3_R
+      parentName: zelda_V001_008:Bip001_Pinky2_R
+      position: {x: 0.020411465, y: 7.673862e-14, z: 1.0718926e-14}
+      rotation: {x: 0.00000010920737, y: -0.000015969408, z: 0.006609573, w: 0.9999782}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.000001}
+    - name: zelda_V001_008:Bip001_Pinky4_R
+      parentName: zelda_V001_008:Bip001_Pinky3_R
+      position: {x: 0.020411987, y: -4.476419e-15, z: 3.0436486e-14}
+      rotation: {x: -0, y: 1.8189892e-12, z: 1.743977e-12, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Thumb_R
+      parentName: zelda_V001_008:Bip001_Hand_R
+      position: {x: 0.016527843, y: 0.017425317, z: -0.026907884}
+      rotation: {x: 0.8184749, y: 0.40401375, z: -0.10378763, w: 0.39509478}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Thumb1_R
+      parentName: zelda_V001_008:Bip001_Thumb_R
+      position: {x: 0.047971595, y: 1.6100898e-13, z: -1.052669e-13}
+      rotation: {x: -0.0000011324884, y: -0.0000032484536, z: 0.24731393, w: 0.96893543}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Thumb2_R
+      parentName: zelda_V001_008:Bip001_Thumb1_R
+      position: {x: 0.040179703, y: 0.000000106926464, z: 0.00000036214055}
+      rotation: {x: 0.0000005468585, y: -0.000010623218, z: -0.074962035, w: -0.9971864}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Thumb3_R
+      parentName: zelda_V001_008:Bip001_Thumb2_R
+      position: {x: 0.031923044, y: -2.8510528e-15, z: -9.166001e-15}
+      rotation: {x: -0, y: -0, z: 5.809396e-12, w: 1}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_bracelet_R
+      parentName: zelda_V001_008:Bip001_Forearm3_R
+      position: {x: 0.005647805, y: -0.013112354, z: -0.00066595053}
+      rotation: {x: -0.09785285, y: -0.06771604, z: 0.91919065, w: 0.3754037}
+      scale: {x: 1.0000014, y: 0.9999997, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Elbow_R
+      parentName: zelda_V001_008:Bip001_UpperArm3_R
+      position: {x: -1.080636e-11, y: -2.2595258e-13, z: 7.307932e-14}
+      rotation: {x: 0.0000003351062, y: 0.045619097, z: -0.0000042137735, w: 0.99895895}
+      scale: {x: 0.9999998, y: 1.0000007, z: 1.0000011}
+    - name: zelda_V001_008:Bip001_Shoulder_R
+      parentName: zelda_V001_008:Bip001_Clavicle_R
+      position: {x: 0.13456583, y: 5.684342e-16, z: -0.000000051397755}
+      rotation: {x: 0.10509111, y: 0.020714603, z: 0.49839646, w: 0.8603068}
+      scale: {x: 0.9999998, y: 1.0000006, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Crest
+      parentName: zelda_V001_008:Bip001_Spine1
+      position: {x: -0.041726105, y: 0.000017441998, z: 0.095377006}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000005, y: 1, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_Thigh_L
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.06261037, y: -0.10162376, z: -0.011713948}
+      rotation: {x: 0.0264031, y: 0.69188106, z: 0.72046065, w: -0.039243996}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_CoatTailFrt_L
+      parentName: zelda_V001_008:Bip001_Thigh_L
+      position: {x: 0.054195363, y: 0.06787887, z: 0.0065120636}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_CoatTailBck_L
+      parentName: zelda_V001_008:Bip001_Thigh_L
+      position: {x: 0.041753292, y: -0.06615894, z: 0.00096029055}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_FancyThing
+      parentName: zelda_V001_008:Bip001_Thigh_L
+      position: {x: 0.038652204, y: 0.017058283, z: -0.025945224}
+      rotation: {x: -0.6900015, y: -0.05739737, z: -0.12601696, w: 0.7104388}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:Bip001_Thigh1_L
+      parentName: zelda_V001_008:Bip001_Thigh_L
+      position: {x: -0.14864045, y: -0.000000004952701, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Thigh2_L
+      parentName: zelda_V001_008:Bip001_Thigh1_L
+      position: {x: -0.14864045, y: -0.000000004952701, z: 1.7763568e-17}
+      rotation: {x: -0.97911936, y: 0.09154913, z: -0.015991589, w: 0.18079907}
+      scale: {x: 1, y: 1.0000002, z: 0.9999997}
+    - name: zelda_V001_008:Bip001_Thigh3_L
+      parentName: zelda_V001_008:Bip001_Thigh2_L
+      position: {x: -0.14864045, y: -0.000000004952701, z: -1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Calf_L
+      parentName: zelda_V001_008:Bip001_Thigh3_L
+      position: {x: -0, y: 8.881784e-18, z: 1.7763568e-17}
+      rotation: {x: -0.00000006135087, y: 0.000000026077029, z: 0.0075739315, w: 0.9999714}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Calf1_L
+      parentName: zelda_V001_008:Bip001_Calf_L
+      position: {x: -0.14989448, y: 0.0000000041312274, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: 1.5998481e-15, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Calf2_L
+      parentName: zelda_V001_008:Bip001_Calf1_L
+      position: {x: -0.14989448, y: 0.0000000041312274, z: -5.3290704e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Calf3_L
+      parentName: zelda_V001_008:Bip001_Calf2_L
+      position: {x: -0.14989448, y: 0.0000000041312274, z: 3.5527136e-17}
+      rotation: {x: -0.62946934, y: 0.6898253, z: -0.24102058, w: 0.26423168}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Foot_L
+      parentName: zelda_V001_008:Bip001_Calf3_L
+      position: {x: -1.7763568e-17, y: 9.992007e-18, z: 5.3290704e-17}
+      rotation: {x: 0.92207915, y: -0.16602392, z: 0.034731384, w: 0.34785032}
+      scale: {x: 1, y: 0.99999934, z: 1.0000015}
+    - name: zelda_V001_008:Bip001_Toe_L
+      parentName: zelda_V001_008:Bip001_Foot_L
+      position: {x: -0.124506645, y: 3.5527136e-17, z: 1.0658141e-16}
+      rotation: {x: -0.0000001490116, y: 0.0000000074505797, z: 0.025336932, w: 0.999679}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_ToeNub_L
+      parentName: zelda_V001_008:Bip001_Toe_L
+      position: {x: -0.07817863, y: -4.4408918e-17, z: 7.105427e-17}
+      rotation: {x: 0.00000014616978, y: -0.00000004274985, z: -0.21192072, w: 0.9772869}
+      scale: {x: 1.0000006, y: 0.9999997, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Knee_L
+      parentName: zelda_V001_008:Bip001_Thigh3_L
+      position: {x: -4.973799e-16, y: 0.000000004952701, z: 0}
+      rotation: {x: 0.0000000018626449, y: 0.000000035390254, z: 0.0037867627, w: 0.9999929}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Thigh_R
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.0626107, y: 0.101624, z: -0.011713987}
+      rotation: {x: -0.7204629, y: 0.039245844, z: 0.026405152, w: 0.69187844}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: zelda_V001_008:Bip001_CoatTailBck_R
+      parentName: zelda_V001_008:Bip001_Thigh_R
+      position: {x: -0.041753363, y: 0.06615899, z: -0.00095537334}
+      rotation: {x: 0.0000034868713, y: 0.000000076368444, z: -0.0000026449559, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_CoatTailFrt_R
+      parentName: zelda_V001_008:Bip001_Thigh_R
+      position: {x: -0.054196145, y: -0.06787872, z: -0.006508087}
+      rotation: {x: 0.0000034868713, y: 0.000000076368444, z: -0.0000026449559, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000002}
+    - name: zelda_V001_008:Bip001_Thigh1_R
+      parentName: zelda_V001_008:Bip001_Thigh_R
+      position: {x: 0.14864041, y: -0.00000078431214, z: -0.00000007891961}
+      rotation: {x: -0.000000059604638, y: -0.0000000018626449, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Thigh2_R
+      parentName: zelda_V001_008:Bip001_Thigh1_R
+      position: {x: 0.14864041, y: -0.00000078431214, z: -0.00000007891961}
+      rotation: {x: -0.9791181, y: 0.09155452, z: -0.015990887, w: 0.18080309}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: zelda_V001_008:Bip001_Thigh3_R
+      parentName: zelda_V001_008:Bip001_Thigh2_R
+      position: {x: 0.14864041, y: -0.00000078431214, z: -0.00000007891961}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Calf_R
+      parentName: zelda_V001_008:Bip001_Thigh3_R
+      position: {x: -2.1316282e-16, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0.00000005961703, y: 0.000000040527013, z: 0.0075685913, w: 0.9999714}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Calf1_R
+      parentName: zelda_V001_008:Bip001_Calf_R
+      position: {x: 0.14989439, y: 0.00000078152857, z: 0.0000000024517939}
+      rotation: {x: -0.0000018479022, y: -0.000000013954056, z: 0.0000024978065, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: zelda_V001_008:Bip001_Calf2_R
+      parentName: zelda_V001_008:Bip001_Calf1_R
+      position: {x: 0.14989439, y: -1.7962165e-12, z: 0.0000000024545836}
+      rotation: {x: 0.0000030101733, y: 0.0000000070122517, z: -0.000000013038525,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Calf3_R
+      parentName: zelda_V001_008:Bip001_Calf2_R
+      position: {x: 0.14989439, y: -1.7815082e-12, z: 0.0000000024545836}
+      rotation: {x: 0.254896, y: 0.22510237, z: 0.64417136, w: 0.6851279}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: zelda_V001_008:Bip001_Foot_R
+      parentName: zelda_V001_008:Bip001_Calf3_R
+      position: {x: 8.881784e-18, y: -3.5527136e-17, z: 2.2204459e-17}
+      rotation: {x: 0.06309066, y: 0.34202957, z: 0.9245746, w: -0.15555416}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: zelda_V001_008:Bip001_Toe_R
+      parentName: zelda_V001_008:Bip001_Foot_R
+      position: {x: 0.12450668, y: 0.000000041895785, z: -0.000000044906812}
+      rotation: {x: -0.00000014342366, y: -0.00000004470348, z: 0.025336867, w: 0.99967897}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: zelda_V001_008:Bip001_ToeNub_R
+      parentName: zelda_V001_008:Bip001_Toe_R
+      position: {x: 0.07817887, y: -0.00000014103297, z: 0.00000004707576}
+      rotation: {x: 0.000000068670964, y: 0.0000000048233306, z: -0.21192065, w: 0.97728693}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Knee_R
+      parentName: zelda_V001_008:Bip001_Thigh3_R
+      position: {x: -0.0000003362522, y: 0.00000078431214, z: 0.00000007891961}
+      rotation: {x: -0.000000059598026, y: 0.00000007241757, z: 0.0037844814, w: 0.9999929}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000006}
+    - name: zelda_V001_008:Bip001_Butt_L
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.06261037, y: -0.10162376, z: -0.011713948}
+      rotation: {x: 0.026403155, y: 0.69188106, z: 0.7204606, w: -0.039244115}
+      scale: {x: 1.0000008, y: 1.0000011, z: 1.0000008}
+    - name: zelda_V001_008:Bip001_Butt_R
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.0626107, y: 0.101624, z: -0.011713987}
+      rotation: {x: -0.7204618, y: 0.039244976, z: 0.026404109, w: 0.6918797}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.000001}
+    - name: zelda_V001_008:Bip001_WrapPush
+      parentName: zelda_V001_008:Bip001_Pelvis
+      position: {x: 0.06076469, y: 0.072114855, z: 0.08136318}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: zelda_V001_008:bn_MasterSword
+      parentName: zelda_V001_008:Bip001_Root
+      position: {x: 0.22679862, y: 1.4980236, z: -0.07619567}
+      rotation: {x: 0.0000000516593, y: 0.000000011641532, z: 0.0000000029103826,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zelda_V001_008:bn_MasterSword1
+      parentName: zelda_V001_008:bn_MasterSword
+      position: {x: -0, y: -3.5527135e-16, z: 0.13405536}
+      rotation: {x: -0.000000040130057, y: 0.7071068, z: -0.00000004424596, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: zelda_V001_008:bn_MasterSword2
+      parentName: zelda_V001_008:bn_MasterSword1
+      position: {x: -0.15038271, y: -3.5527135e-16, z: 7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSword3
+      parentName: zelda_V001_008:bn_MasterSword2
+      position: {x: -0.2049571, y: -2.1316282e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSword4
+      parentName: zelda_V001_008:bn_MasterSword3
+      position: {x: -0.20859538, y: -3.5527135e-16, z: 7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSword5
+      parentName: zelda_V001_008:bn_MasterSword4
+      position: {x: -0.1843401, y: -2.842171e-16, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordTop5
+      parentName: zelda_V001_008:bn_MasterSword5
+      position: {x: -1.4210854e-16, y: 0.03, z: 7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordBot5
+      parentName: zelda_V001_008:bn_MasterSword5
+      position: {x: -0, y: -0.03, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordTop4
+      parentName: zelda_V001_008:bn_MasterSword4
+      position: {x: -7.105427e-17, y: 0.03, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordBot4
+      parentName: zelda_V001_008:bn_MasterSword4
+      position: {x: -1.4210854e-16, y: -0.03, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordTop3
+      parentName: zelda_V001_008:bn_MasterSword3
+      position: {x: 1.4210854e-16, y: 0.03, z: 7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordBot3
+      parentName: zelda_V001_008:bn_MasterSword3
+      position: {x: 2.842171e-16, y: -0.03, z: 7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordTop2
+      parentName: zelda_V001_008:bn_MasterSword2
+      position: {x: 2.842171e-16, y: 0.03, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: zelda_V001_008:bn_MasterSwordBot2
+      parentName: zelda_V001_008:bn_MasterSword2
+      position: {x: 2.842171e-16, y: -0.03, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

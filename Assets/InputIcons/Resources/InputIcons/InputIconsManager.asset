@@ -1,0 +1,881 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab8ee0d4f7f91a4ca569ef0eacc2738, type: 3}
+  m_Name: InputIconsManager
+  m_EditorClassIdentifier: 
+  iconSetConfiguratorSO: {fileID: 11400000, guid: d9f6a2d5fd0df16419a30f0ab431893f,
+    type: 2}
+  usedActionAssets:
+  - {fileID: -944628639613478452, guid: 198108ec24ae461419f0ce22a1d8214a, type: 3}
+  controlSchemeName_Keyboard: Keyboard And Mouse
+  controlSchemeName_Gamepad: Gamepad
+  showAllInputOptionsInStyles: 0
+  openingTag: 
+  closingTag: 
+  multipleInputsDelimiter: ' <size=80%>or</size> '
+  compositeInputDelimiter: ', '
+  textDisplayForUnboundActions: Undefined
+  textDisplayLanguage: 0
+  actionNameRenamings:
+  - originalString: delta
+    outputString: Mouse
+  - originalString: position
+    outputString: Mouse
+  - originalString: leftbutton
+    outputString: Left Mouse Button
+  - originalString: rightButton
+    outputString: Right  Mouse Button
+  rebindBehaviour: 0
+  loadAndSaveInputBindingOverrides: 1
+  displayType: 0
+  inputStyleKeyboardDataList:
+  - binding:
+      m_Name: 
+      m_Id: 
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: 
+      m_Flags: 0
+    isComposite: 1
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Movement>
+    bindingName: Player/Movement
+    inputStyleString: <sprite="Keyboard and Mouse" name="W"><sprite="Keyboard and
+      Mouse" name="A"><sprite="Keyboard and Mouse" name="S"><sprite="Keyboard and
+      Mouse" name="D">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="W"><sprite="Keyboard
+      and Mouse" name="A"><sprite="Keyboard and Mouse" name="S"><sprite="Keyboard
+      and Mouse" name="D">
+    humanReadableString: W, A, S, D
+    humanReadableString_singleInput: W, A, S, D
+  - binding:
+      m_Name: up
+      m_Id: 4ad5c2b5-f1cf-4ffa-a03a-70dd8e69c1a3
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Movement
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=Player/Movement/up>
+    bindingName: Player/Movement/up
+    inputStyleString: <sprite="Keyboard and Mouse" name="W">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="W">
+    humanReadableString: W
+    humanReadableString_singleInput: W
+  - binding:
+      m_Name: left
+      m_Id: b48248b1-44ad-4960-8db5-f38eda8c474c
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Movement
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=Player/Movement/left>
+    bindingName: Player/Movement/left
+    inputStyleString: <sprite="Keyboard and Mouse" name="A">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="A">
+    humanReadableString: A
+    humanReadableString_singleInput: A
+  - binding:
+      m_Name: down
+      m_Id: 94d5c8d9-d47e-4fea-98bf-58d21b604763
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Movement
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=Player/Movement/down>
+    bindingName: Player/Movement/down
+    inputStyleString: <sprite="Keyboard and Mouse" name="S">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="S">
+    humanReadableString: S
+    humanReadableString_singleInput: S
+  - binding:
+      m_Name: right
+      m_Id: ab72da52-20d2-4a1c-8e8b-f9a4ff8373a9
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Movement
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=Player/Movement/right>
+    bindingName: Player/Movement/right
+    inputStyleString: <sprite="Keyboard and Mouse" name="D">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="D">
+    humanReadableString: D
+    humanReadableString_singleInput: D
+  - binding:
+      m_Name: 
+      m_Id: b1a1fecd-3e2a-4368-b355-e6f17be7c0e7
+      m_Path: <Mouse>/delta
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Look
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Look>
+    bindingName: Player/Look
+    inputStyleString: <sprite="Keyboard and Mouse" name="DELTA">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="DELTA">
+    humanReadableString: MOUSE
+    humanReadableString_singleInput: MOUSE
+  - binding:
+      m_Name: 
+      m_Id: a43d3312-83af-4495-94cf-a87e0bd1f497
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Jump
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Jump>
+    bindingName: Player/Jump
+    inputStyleString: <sprite="Keyboard and Mouse" name="SPACE">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="SPACE">
+    humanReadableString: SPACE
+    humanReadableString_singleInput: SPACE
+  - binding:
+      m_Name: 
+      m_Id: 6e8986aa-dccf-4c72-a209-853b49e60bce
+      m_Path: <Mouse>/middleButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: LockOn
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/LockOn>
+    bindingName: Player/LockOn
+    inputStyleString: <sprite="Keyboard and Mouse" name="MIDDLEBUTTON">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="MIDDLEBUTTON">
+    humanReadableString: MMB
+    humanReadableString_singleInput: MMB
+  - binding:
+      m_Name: 
+      m_Id: ffdd9e2b-c479-43e9-84e5-291be8b0816d
+      m_Path: <Keyboard>/1
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: LockOn To Left
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/LockOn To Left>
+    bindingName: Player/LockOn To Left
+    inputStyleString: <sprite="Keyboard and Mouse" name="DIGIT1">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="DIGIT1">
+    humanReadableString: 1
+    humanReadableString_singleInput: 1
+  - binding:
+      m_Name: 
+      m_Id: 1361edcf-f9ba-46ab-9e6d-63158254af75
+      m_Path: <Keyboard>/3
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: LockOn To Right
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/LockOn To Right>
+    bindingName: Player/LockOn To Right
+    inputStyleString: <sprite="Keyboard and Mouse" name="DIGIT3">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="DIGIT3">
+    humanReadableString: 3
+    humanReadableString_singleInput: 3
+  - binding:
+      m_Name: 
+      m_Id: aeafbc5f-20fa-4e9b-b67f-608284483abd
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Dash
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Dash>
+    bindingName: Player/Dash
+    inputStyleString: <sprite="Keyboard and Mouse" name="LEFTSHIFT">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="LEFTSHIFT">
+    humanReadableString: LEFT SHIFT
+    humanReadableString_singleInput: LEFT SHIFT
+  - binding:
+      m_Name: 
+      m_Id: 151aced6-3342-4f3c-830f-2d6e48323307
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Attack
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Attack>
+    bindingName: Player/Attack
+    inputStyleString: <sprite="Keyboard and Mouse" name="LEFTBUTTON">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="LEFTBUTTON">
+    humanReadableString: LMB
+    humanReadableString_singleInput: LMB
+  - binding:
+      m_Name: 
+      m_Id: 1557baf8-4480-4cc0-a0ee-f291bfbb8ce5
+      m_Path: <Mouse>/rightButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Heavy Attack
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Heavy Attack>
+    bindingName: Player/Heavy Attack
+    inputStyleString: <sprite="Keyboard and Mouse" name="RIGHTBUTTON">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="RIGHTBUTTON">
+    humanReadableString: RMB
+    humanReadableString_singleInput: RMB
+  - binding:
+      m_Name: 
+      m_Id: b89c7b54-7de0-4ec4-a69f-f84a713d2610
+      m_Path: <Keyboard>/leftAlt
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Block
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Block>
+    bindingName: Player/Block
+    inputStyleString: <sprite="Keyboard and Mouse" name="LEFTALT">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="LEFTALT">
+    humanReadableString: LEFT ALT
+    humanReadableString_singleInput: LEFT ALT
+  - binding:
+      m_Name: 
+      m_Id: 11eefa4c-3a3a-47bf-93aa-93541d9b0e75
+      m_Path: <Keyboard>/f
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Special
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Special>
+    bindingName: Player/Special
+    inputStyleString: <sprite="Keyboard and Mouse" name="F">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="F">
+    humanReadableString: F
+    humanReadableString_singleInput: F
+  - binding:
+      m_Name: 
+      m_Id: 4faff75d-1983-459b-b80c-6ceaef258013
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Menu
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Menu>
+    bindingName: Player/Menu
+    inputStyleString: <sprite="Keyboard and Mouse" name="ESCAPE">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="ESCAPE">
+    humanReadableString: ESCAPE
+    humanReadableString_singleInput: ESCAPE
+  - binding:
+      m_Name: 
+      m_Id: 
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: 
+      m_Flags: 0
+    isComposite: 1
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/NoClip>
+    bindingName: Player/NoClip
+    inputStyleString: <sprite="Keyboard and Mouse" name="FALLBACKSPRITE"><sprite="Keyboard
+      and Mouse" name="V">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="FALLBACKSPRITE"><sprite="Keyboard
+      and Mouse" name="V">
+    humanReadableString: SHIFT, V
+    humanReadableString_singleInput: SHIFT, V
+  - binding:
+      m_Name: modifier
+      m_Id: 2a7c2da4-a2a3-40ab-9d19-71dbd5649588
+      m_Path: <Keyboard>/shift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: NoClip
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=Player/NoClip/modifier>
+    bindingName: Player/NoClip/modifier
+    inputStyleString: <sprite="Keyboard and Mouse" name="FALLBACKSPRITE">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="FALLBACKSPRITE">
+    humanReadableString: SHIFT
+    humanReadableString_singleInput: SHIFT
+  - binding:
+      m_Name: binding
+      m_Id: 834a8984-7bc6-4dd7-aae4-7e8195e1457e
+      m_Path: <Keyboard>/v
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: NoClip
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=Player/NoClip/binding>
+    bindingName: Player/NoClip/binding
+    inputStyleString: <sprite="Keyboard and Mouse" name="V">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="V">
+    humanReadableString: V
+    humanReadableString_singleInput: V
+  - binding:
+      m_Name: 
+      m_Id: 05903c58-8b9f-4f76-9ef3-347145e00ccf
+      m_Path: <Keyboard>/shift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: NoClipSprint
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/NoClipSprint>
+    bindingName: Player/NoClipSprint
+    inputStyleString: <sprite="Keyboard and Mouse" name="FALLBACKSPRITE">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="FALLBACKSPRITE">
+    humanReadableString: SHIFT
+    humanReadableString_singleInput: SHIFT
+  - binding:
+      m_Name: 
+      m_Id: cae1e5b0-75d3-4a8b-8f28-d597f12b6b8b
+      m_Path: <Keyboard>/tab
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: ResetCamera
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/ResetCamera>
+    bindingName: Player/ResetCamera
+    inputStyleString: <sprite="Keyboard and Mouse" name="TAB">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="TAB">
+    humanReadableString: TAB
+    humanReadableString_singleInput: TAB
+  - binding:
+      m_Name: 
+      m_Id: fd146d73-9452-44df-94a2-8de732a972f8
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Sprint
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Sprint>
+    bindingName: Player/Sprint
+    inputStyleString: <sprite="Keyboard and Mouse" name="LEFTSHIFT">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="LEFTSHIFT">
+    humanReadableString: LEFT SHIFT
+    humanReadableString_singleInput: LEFT SHIFT
+  - binding:
+      m_Name: 
+      m_Id: a77d4eba-fe68-4255-84b7-1c88b4934e8b
+      m_Path: <Keyboard>/q
+      m_Interactions: Hold
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Heal
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Heal>
+    bindingName: Player/Heal
+    inputStyleString: <sprite="Keyboard and Mouse" name="Q">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="Q">
+    humanReadableString: HOLD Q
+    humanReadableString_singleInput: HOLD Q
+  - binding:
+      m_Name: 
+      m_Id: eda72888-7b30-43fc-ad18-162316a552ba
+      m_Path: <Keyboard>/e
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Interact
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Interact>
+    bindingName: Player/Interact
+    inputStyleString: <sprite="Keyboard and Mouse" name="E">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="E">
+    humanReadableString: E
+    humanReadableString_singleInput: E
+  - binding:
+      m_Name: 
+      m_Id: 172a07f0-f8db-43e4-9c64-e8ad7aaa95c1
+      m_Path: <Keyboard>/leftBracket
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: SpawnSword
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/SpawnSword>
+    bindingName: Player/SpawnSword
+    inputStyleString: <sprite="Keyboard and Mouse" name="LEFTBRACKET">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="LEFTBRACKET">
+    humanReadableString: '['
+    humanReadableString_singleInput: '['
+  - binding:
+      m_Name: 
+      m_Id: e69aa1ef-ef72-464a-a55e-9088f565cd6a
+      m_Path: <Keyboard>/rightBracket
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: SpawnAxe
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/SpawnAxe>
+    bindingName: Player/SpawnAxe
+    inputStyleString: <sprite="Keyboard and Mouse" name="RIGHTBRACKET">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="RIGHTBRACKET">
+    humanReadableString: ']'
+    humanReadableString_singleInput: ']'
+  - binding:
+      m_Name: 
+      m_Id: ef8d7419-81a9-4d1d-89e7-a6fb3f060dda
+      m_Path: <Keyboard>/f12
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Keyboard And Mouse
+      m_Action: Screenshot
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Screenshot>
+    bindingName: Player/Screenshot
+    inputStyleString: <sprite="Keyboard and Mouse" name="F12">
+    inputStyleString_singleInput: <sprite="Keyboard and Mouse" name="F12">
+    humanReadableString: F12
+    humanReadableString_singleInput: F12
+  inputStyleGamepadDataList:
+  - binding:
+      m_Name: 
+      m_Id: 6ce267f7-83a0-485e-8c49-c8f96aee6491
+      m_Path: <Gamepad>/leftStick
+      m_Interactions: 
+      m_Processors: StickDeadzone
+      m_Groups: Gamepad
+      m_Action: Movement
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Movement>
+    bindingName: Player/Movement
+    inputStyleString: <sprite="PS5" name="LEFT STICK">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK">
+    humanReadableString: LEFT STICK
+    humanReadableString_singleInput: LEFT STICK
+  - binding:
+      m_Name: 
+      m_Id: 549c760f-70f0-4df4-9855-60e23f6413ad
+      m_Path: <Gamepad>/rightStick
+      m_Interactions: 
+      m_Processors: StickDeadzone,ScaleVector2(x=12,y=12)
+      m_Groups: Gamepad
+      m_Action: Look
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Look>
+    bindingName: Player/Look
+    inputStyleString: <sprite="PS5" name="RIGHT STICK">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT STICK">
+    humanReadableString: RIGHT STICK
+    humanReadableString_singleInput: RIGHT STICK
+  - binding:
+      m_Name: 
+      m_Id: 5b48dfd4-7d43-4126-aaff-a0b5253132a6
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Jump
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Jump>
+    bindingName: Player/Jump
+    inputStyleString: <sprite="PS5" name="BUTTON SOUTH">
+    inputStyleString_singleInput: <sprite="PS5" name="BUTTON SOUTH">
+    humanReadableString: BUTTON SOUTH
+    humanReadableString_singleInput: BUTTON SOUTH
+  - binding:
+      m_Name: 
+      m_Id: 7b7351bf-9cc9-45f2-843d-bb07bd5e0e9c
+      m_Path: <Gamepad>/rightStickPress
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: LockOn
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/LockOn>
+    bindingName: Player/LockOn
+    inputStyleString: <sprite="PS5" name="RIGHT STICK PRESS">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT STICK PRESS">
+    humanReadableString: RIGHT STICK PRESS
+    humanReadableString_singleInput: RIGHT STICK PRESS
+  - binding:
+      m_Name: 
+      m_Id: 4a1c0d4c-e801-441a-8d55-b117e03486e3
+      m_Path: <Gamepad>/rightStick/left
+      m_Interactions: Tap(pressPoint=1)
+      m_Processors: AxisDeadzone(min=0.1,max=1)
+      m_Groups: Gamepad
+      m_Action: LockOn To Left
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/LockOn To Left>
+    bindingName: Player/LockOn To Left
+    inputStyleString: <sprite="PS5" name="RIGHT STICK/LEFT">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT STICK/LEFT">
+    humanReadableString: RIGHT STICK/LEFT
+    humanReadableString_singleInput: RIGHT STICK/LEFT
+  - binding:
+      m_Name: 
+      m_Id: c3a4591f-faa5-4856-93ee-3fa0028ec0e6
+      m_Path: <Gamepad>/rightStick/right
+      m_Interactions: Tap(pressPoint=1)
+      m_Processors: AxisDeadzone(min=0.1,max=1)
+      m_Groups: Gamepad
+      m_Action: LockOn To Right
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/LockOn To Right>
+    bindingName: Player/LockOn To Right
+    inputStyleString: <sprite="PS5" name="RIGHT STICK/RIGHT">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT STICK/RIGHT">
+    humanReadableString: RIGHT STICK/RIGHT
+    humanReadableString_singleInput: RIGHT STICK/RIGHT
+  - binding:
+      m_Name: 
+      m_Id: 30f7660e-f168-46fa-b836-ff9f32cd79ac
+      m_Path: <Gamepad>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Dash
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Dash>
+    bindingName: Player/Dash
+    inputStyleString: <sprite="PS5" name="RIGHT SHOULDER">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT SHOULDER">
+    humanReadableString: RIGHT SHOULDER
+    humanReadableString_singleInput: RIGHT SHOULDER
+  - binding:
+      m_Name: 
+      m_Id: 8335e23f-bd3b-4e42-888a-7ca22f980982
+      m_Path: <Gamepad>/buttonWest
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Attack
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Attack>
+    bindingName: Player/Attack
+    inputStyleString: <sprite="PS5" name="BUTTON WEST">
+    inputStyleString_singleInput: <sprite="PS5" name="BUTTON WEST">
+    humanReadableString: BUTTON WEST
+    humanReadableString_singleInput: BUTTON WEST
+  - binding:
+      m_Name: 
+      m_Id: 00ce9f32-cee0-45bb-a470-0c52300d036b
+      m_Path: <Gamepad>/buttonNorth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Heavy Attack
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Heavy Attack>
+    bindingName: Player/Heavy Attack
+    inputStyleString: <sprite="PS5" name="BUTTON NORTH">
+    inputStyleString_singleInput: <sprite="PS5" name="BUTTON NORTH">
+    humanReadableString: BUTTON NORTH
+    humanReadableString_singleInput: BUTTON NORTH
+  - binding:
+      m_Name: 
+      m_Id: 915ebbd5-44b6-481c-8002-4b2e56e25cb4
+      m_Path: <Gamepad>/leftShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Block
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Block>
+    bindingName: Player/Block
+    inputStyleString: <sprite="PS5" name="LEFT SHOULDER">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT SHOULDER">
+    humanReadableString: LEFT SHOULDER
+    humanReadableString_singleInput: LEFT SHOULDER
+  - binding:
+      m_Name: 
+      m_Id: 49e40b3b-8226-4adf-ba5c-20d2180b651a
+      m_Path: <Gamepad>/rightTrigger
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Special
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Special>
+    bindingName: Player/Special
+    inputStyleString: <sprite="PS5" name="RIGHT TRIGGER">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT TRIGGER">
+    humanReadableString: RIGHT TRIGGER
+    humanReadableString_singleInput: RIGHT TRIGGER
+  - binding:
+      m_Name: 
+      m_Id: 83505876-f11e-4b8f-8f28-53f3997f14d0
+      m_Path: <Gamepad>/start
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Menu
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Menu>
+    bindingName: Player/Menu
+    inputStyleString: <sprite="PS5" name="START">
+    inputStyleString_singleInput: <sprite="PS5" name="START">
+    humanReadableString: START
+    humanReadableString_singleInput: START
+  - binding:
+      m_Name: 
+      m_Id: d8220bdc-4295-45f5-a029-e562565aa168
+      m_Path: <Gamepad>/rightStickPress
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: ResetCamera
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/ResetCamera>
+    bindingName: Player/ResetCamera
+    inputStyleString: <sprite="PS5" name="RIGHT STICK PRESS">
+    inputStyleString_singleInput: <sprite="PS5" name="RIGHT STICK PRESS">
+    humanReadableString: RIGHT STICK PRESS
+    humanReadableString_singleInput: RIGHT STICK PRESS
+  - binding:
+      m_Name: 
+      m_Id: c1ea1678-77bf-4c5b-b4d5-723e9289eb32
+      m_Path: <Gamepad>/leftStickPress
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Sprint
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Sprint>
+    bindingName: Player/Sprint
+    inputStyleString: <sprite="PS5" name="LEFT STICK PRESS">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK PRESS">
+    humanReadableString: LEFT STICK PRESS
+    humanReadableString_singleInput: LEFT STICK PRESS
+  - binding:
+      m_Name: 
+      m_Id: 16181f7e-5e4f-4c70-a8b3-1a8700e47df4
+      m_Path: <Gamepad>/leftTrigger
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Heal
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Heal>
+    bindingName: Player/Heal
+    inputStyleString: <sprite="PS5" name="LEFT TRIGGER">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT TRIGGER">
+    humanReadableString: LEFT TRIGGER
+    humanReadableString_singleInput: LEFT TRIGGER
+  - binding:
+      m_Name: 
+      m_Id: 2e1bc83e-dea4-43c8-a674-a447748016c3
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: Gamepad
+      m_Action: Interact
+      m_Flags: 0
+    isComposite: 0
+    isPartOfComposite: 0
+    tmproReferenceText: <style=Player/Interact>
+    bindingName: Player/Interact
+    inputStyleString: <sprite="PS5" name="BUTTON EAST">
+    inputStyleString_singleInput: <sprite="PS5" name="BUTTON EAST">
+    humanReadableString: BUTTON EAST
+    humanReadableString_singleInput: BUTTON EAST
+  - binding:
+      m_Name: 
+      m_Id: 
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: 
+      m_Flags: 0
+    isComposite: 1
+    isPartOfComposite: 0
+    tmproReferenceText: <style=UI/Navigate>
+    bindingName: UI/Navigate
+    inputStyleString: <sprite="PS5" name="LEFT STICK/UP"><sprite="PS5" name="RIGHT
+      STICK/UP"><sprite="PS5" name="LEFT STICK/DOWN"><sprite="PS5" name="RIGHT STICK/DOWN"><sprite="PS5"
+      name="LEFT STICK/LEFT"><sprite="PS5" name="RIGHT STICK/LEFT"><sprite="PS5"
+      name="LEFT STICK/RIGHT"><sprite="PS5" name="RIGHT STICK/RIGHT"> <size=80%>or</size>
+      <sprite="PS5" name="D-PAD">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK/UP"><sprite="PS5"
+      name="RIGHT STICK/UP"><sprite="PS5" name="LEFT STICK/DOWN"><sprite="PS5" name="RIGHT
+      STICK/DOWN"><sprite="PS5" name="LEFT STICK/LEFT"><sprite="PS5" name="RIGHT
+      STICK/LEFT"><sprite="PS5" name="LEFT STICK/RIGHT"><sprite="PS5" name="RIGHT
+      STICK/RIGHT">
+    humanReadableString: LEFT STICK/UP, RIGHT STICK/UP, LEFT STICK/DOWN, RIGHT STICK/DOWN,
+      LEFT STICK/LEFT, RIGHT STICK/LEFT, LEFT STICK/RIGHT, RIGHT STICK/RIGHT <size=80%>or</size>
+      D-PAD
+    humanReadableString_singleInput: LEFT STICK/UP, RIGHT STICK/UP, LEFT STICK/DOWN,
+      RIGHT STICK/DOWN, LEFT STICK/LEFT, RIGHT STICK/LEFT, LEFT STICK/RIGHT, RIGHT
+      STICK/RIGHT
+  - binding:
+      m_Name: up
+      m_Id: fab4531c-7fc4-4e1a-bb3c-ce3786de7932
+      m_Path: <Gamepad>/leftStick/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: ;Gamepad
+      m_Action: Navigate
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=UI/Navigate/up>
+    bindingName: UI/Navigate/up
+    inputStyleString: <sprite="PS5" name="LEFT STICK/UP"> <size=80%>or</size> <sprite="PS5"
+      name="RIGHT STICK/UP">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK/UP">
+    humanReadableString: LEFT STICK/UP <size=80%>or</size> RIGHT STICK/UP
+    humanReadableString_singleInput: LEFT STICK/UP
+  - binding:
+      m_Name: down
+      m_Id: 292c68a9-4642-4e94-afd4-6a69754aa459
+      m_Path: <Gamepad>/leftStick/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: ;Gamepad
+      m_Action: Navigate
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=UI/Navigate/down>
+    bindingName: UI/Navigate/down
+    inputStyleString: <sprite="PS5" name="LEFT STICK/DOWN"> <size=80%>or</size> <sprite="PS5"
+      name="RIGHT STICK/DOWN">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK/DOWN">
+    humanReadableString: LEFT STICK/DOWN <size=80%>or</size> RIGHT STICK/DOWN
+    humanReadableString_singleInput: LEFT STICK/DOWN
+  - binding:
+      m_Name: left
+      m_Id: 996ea73d-1a8a-49df-bc30-2ddb65a4cf03
+      m_Path: <Gamepad>/leftStick/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: ;Gamepad
+      m_Action: Navigate
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=UI/Navigate/left>
+    bindingName: UI/Navigate/left
+    inputStyleString: <sprite="PS5" name="LEFT STICK/LEFT"> <size=80%>or</size> <sprite="PS5"
+      name="RIGHT STICK/LEFT">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK/LEFT">
+    humanReadableString: LEFT STICK/LEFT <size=80%>or</size> RIGHT STICK/LEFT
+    humanReadableString_singleInput: LEFT STICK/LEFT
+  - binding:
+      m_Name: right
+      m_Id: c8e422d3-2536-4725-8c0e-b90fb65fda09
+      m_Path: <Gamepad>/leftStick/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: ;Gamepad
+      m_Action: Navigate
+      m_Flags: 8
+    isComposite: 0
+    isPartOfComposite: 1
+    tmproReferenceText: <style=UI/Navigate/right>
+    bindingName: UI/Navigate/right
+    inputStyleString: <sprite="PS5" name="LEFT STICK/RIGHT"> <size=80%>or</size>
+      <sprite="PS5" name="RIGHT STICK/RIGHT">
+    inputStyleString_singleInput: <sprite="PS5" name="LEFT STICK/RIGHT">
+    humanReadableString: LEFT STICK/RIGHT <size=80%>or</size> RIGHT STICK/RIGHT
+    humanReadableString_singleInput: LEFT STICK/RIGHT
+  TEXTMESHPRO_SPRITEASSET_FOLDERPATH: Assets/TextMesh Pro/Resources/Sprite Assets/
+  loggingEnabled: 1

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TFF_Water_01A
+  m_Shader: {fileID: 4800000, guid: 21b2f218fa38d334daf2f2012e6c546d, type: 3}
+  m_ValidKeywords:
+  - _WAVES_ON
+  m_InvalidKeywords:
+  - _LIGHTS_ON
+  - _MAINFOAMPOWER_ON
+  - _VERTEXOFFSET2_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2981
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 41d01fe6e8db970449385e7f43d4aa06, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: db76e0ea49f14f147bee066871c70d88, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _FoamDistance: 0.009
+    - _FoamHardness: 0
+    - _FoamOpacity: 0.618
+    - _FoamScale: 1
+    - _FoamSpeed: 0.159
+    - _FresnelIntensity: 0.635
+    - _Opacity: 0.27
+    - _OpacityDepth: 4.5
+    - _QueueControl: 0
+    - _QueueOffset: -19
+    - _ReflectionsCutoff: 0.4
+    - _ReflectionsCutoffScale: 40
+    - _ReflectionsCutoffScrollSpeed: -0.025
+    - _ReflectionsOpacity: 1
+    - _ReflectionsScale: 1
+    - _ReflectionsScrollSpeed: -0.15
+    - _ShallowColorDepth: 15
+    - _WaveAmplitude: 0.353
+    - _WaveIntensity: 0.17
+    - _WaveSpeed: 1
+    - _Waves: 1
+    - __dirty: 0
+    m_Colors:
+    - _DeepColor: {r: 0.16981131, g: 0.1523126, b: 0.11294054, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 0.066721626, g: 0.1509434, b: 0.047703806, a: 1}
+    - _ShallowColor: {r: 0.16037738, g: 0.1386281, b: 0.108179085, a: 1}
+  m_BuildTextureStacks: []

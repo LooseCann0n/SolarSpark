@@ -1,0 +1,1737 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6499410028426901470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2450903413472675575}
+  m_Layer: 0
+  m_Name: City Wall Tower Corner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2450903413472675575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499410028426901470}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8594027298631227087}
+  - {fileID: 5776991692781543654}
+  - {fileID: 2551613962155160429}
+  - {fileID: 4286435900926362909}
+  - {fileID: 5484084320439674150}
+  - {fileID: 3168492921923144665}
+  - {fileID: 7235574628566203162}
+  - {fileID: 3230220153928939026}
+  - {fileID: 3324876393476661742}
+  - {fileID: 6179614610532824}
+  - {fileID: 5057278627992767565}
+  - {fileID: 4465807101860003153}
+  - {fileID: 9074884697965426617}
+  - {fileID: 5971962998415147297}
+  - {fileID: 6826487625212746591}
+  - {fileID: 3363590159753821248}
+  - {fileID: 6954491824844025339}
+  - {fileID: 2882964818974614939}
+  - {fileID: 3835496794685937702}
+  - {fileID: 7717410436606132854}
+  - {fileID: 5433476350712772504}
+  - {fileID: 6067127777925356935}
+  m_Father: {fileID: 3022787370671992584}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9062821232946505619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3022787370671992584}
+  m_Layer: 0
+  m_Name: City Wall Tower Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3022787370671992584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062821232946505619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2450903413472675575}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &549242543201111603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.500025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00011062622
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000014603138
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &6179614610532824 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 549242543201111603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2658142049593857158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &2551613962155160429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2658142049593857158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2965451101179829163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &3363590159753821248 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2965451101179829163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3003597536679118341
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.500029
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00010967255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000014603138
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &3324876393476661742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 3003597536679118341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3125134619314262521
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &3230220153928939026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3125134619314262521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3202629960425335858
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &3168492921923144665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 3202629960425335858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3425234112436454000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &2882964818974614939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3425234112436454000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3652654035189301197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.500078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.49997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071058
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Small (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed70ce0402b93584c8eef1ab08313efe, type: 3}
+--- !u!4 &3835496794685937702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+    type: 3}
+  m_PrefabInstance: {fileID: 3652654035189301197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4211712930719554234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.50003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000120162964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000014603138
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &4465807101860003153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 4211712930719554234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4392913718993740534
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &4286435900926362909 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 4392913718993740534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4730373228052245414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.500029
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00011444092
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000014603138
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &5057278627992767565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 4730373228052245414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5445371878109987533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &5484084320439674150 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 5445371878109987533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5543135685382574195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.500093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -41.999973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071058
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Small (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed70ce0402b93584c8eef1ab08313efe, type: 3}
+--- !u!4 &5433476350712772504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+    type: 3}
+  m_PrefabInstance: {fileID: 5543135685382574195}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6032710156995279468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.500085
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.49997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &6067127777925356935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6032710156995279468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6154755796790060746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.499905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed70ce0402b93584c8eef1ab08313efe, type: 3}
+--- !u!4 &5971962998415147297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+    type: 3}
+  m_PrefabInstance: {fileID: 6154755796790060746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6314405304257545997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03fe175f9465ed54d86d07224f689e7c,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Tower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03fe175f9465ed54d86d07224f689e7c, type: 3}
+--- !u!4 &5776991692781543654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 03fe175f9465ed54d86d07224f689e7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6314405304257545997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6428386192363535540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.999996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.5000014
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &6826487625212746591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6428386192363535540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7197690863319325937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ec134260bd883648be526b82d085439,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Medium (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec134260bd883648be526b82d085439, type: 3}
+--- !u!4 &7235574628566203162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ec134260bd883648be526b82d085439,
+    type: 3}
+  m_PrefabInstance: {fileID: 7197690863319325937}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7424720593088596496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.4999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.500029
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed70ce0402b93584c8eef1ab08313efe,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Small (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed70ce0402b93584c8eef1ab08313efe, type: 3}
+--- !u!4 &6954491824844025339 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed70ce0402b93584c8eef1ab08313efe,
+    type: 3}
+  m_PrefabInstance: {fileID: 7424720593088596496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7823604237063972253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.500076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -33.999973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &7717410436606132854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7823604237063972253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8128618232020070692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48b56aaaaf093b144acf99d74733a3b0,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Tower Cap
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48b56aaaaf093b144acf99d74733a3b0, type: 3}
+--- !u!4 &8594027298631227087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 48b56aaaaf093b144acf99d74733a3b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8128618232020070692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8825593950802153554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2450903413472675575}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.500004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+        type: 3}
+      propertyPath: m_Name
+      value: City Wall Walkway Post (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b58fadd61c1916d4d9e1a405aa3fab0e, type: 3}
+--- !u!4 &9074884697965426617 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b58fadd61c1916d4d9e1a405aa3fab0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8825593950802153554}
+  m_PrefabAsset: {fileID: 0}

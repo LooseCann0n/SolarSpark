@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: Sobek Tree
+  m_EditorClassIdentifier: 
+  rootNode:
+    rid: 691214634588569611
+  nodes:
+  - rid: 691214634588569611
+  - rid: 691214634588569618
+  - rid: 691214634588569619
+  - rid: 691214634588569620
+  - rid: 691214634588569621
+  - rid: 691214634588569623
+  - rid: 691214705129160704
+  - rid: 691214705129160706
+  - rid: 691214705129160707
+  - rid: 691214705129160708
+  - rid: 691214705129160709
+  - rid: 691214705508220928
+  - rid: 5127070212224712705
+  - rid: 5127070212224712706
+  - rid: 5127070212224712708
+  - rid: 5127070213706088450
+  - rid: 5127070213706088451
+  - rid: 5127070372504797202
+  treeState: 0
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    attackPosition: {fileID: 0}
+    playerTransform: {fileID: 0}
+    circleCounter: 0
+    targetCirclePoint: {x: 0, y: 0, z: 0}
+    circleDirection: 0
+  viewPosition: {x: 807, y: 340, z: 0}
+  viewScale: {x: 0.65751624, y: 0.65751624, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 691214634588569611
+      type: {class: RootNode, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 9c2eaef7-e26c-4a89-ab08-bce1ab7e1708
+        position: {x: -835.5312, y: -484.6346}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        child:
+          rid: 691214705129160704
+    - rid: 691214634588569618
+      type: {class: FindClosestCirclePoint, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: a3f4b75803ff29947bd5c459a82c84af
+        position: {x: -415.77945, y: 15.227598}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Find closest circle point
+        drawGizmos: 0
+        counter: 0
+    - rid: 691214634588569619
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 7fb8fc15d0e98174f805065a4f9c0940
+        position: {x: -237.02077, y: 137.61765}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 691214634588569623
+        - rid: 5127070212224712708
+        - rid: 5127070372504797202
+    - rid: 691214634588569620
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: ca390f328e57dd445a7bd7ccb04f5930
+        position: {x: -331.20178, y: -109.90346}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 691214634588569618
+        - rid: 691214634588569621
+    - rid: 691214634588569621
+      type: {class: Repeat, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 253552c70c75fed4e831bc8339509a13
+        position: {x: -237.18796, y: 15.227593}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Keep repeating circling
+        drawGizmos: 0
+        child:
+          rid: 691214634588569619
+        restartOnSuccess: 1
+        restartOnFailure: 0
+    - rid: 691214634588569623
+      type: {class: AssignCirclePoint, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 4c038c94e58d65a47b0400b6bb3e802a
+        position: {x: -358.17932, y: 269.4622}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Pick the next circle point
+        drawGizmos: 0
+    - rid: 691214705129160704
+      type: {class: Repeat, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: eff01cec74a33cd4da70a49abda1e8d4
+        position: {x: -835.5312, y: -347.58633}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        child:
+          rid: 691214705508220928
+        restartOnSuccess: 1
+        restartOnFailure: 0
+    - rid: 691214705129160706
+      type: {class: Sequencer, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: cf4476eed4067a946bdf1142130bbb6a
+        position: {x: -1209.35, y: -109.90347}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Handles attacking
+        drawGizmos: 0
+        children:
+        - rid: 691214705129160709
+        - rid: 691214705129160707
+        - rid: 691214705129160708
+    - rid: 691214705129160707
+      type: {class: InRangeNode, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: e7a077c9609dafa409a2d4344e373b4b
+        position: {x: -1232.6921, y: 18.537933}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: When player is within attack range
+        drawGizmos: 0
+        attackRange: 3
+    - rid: 691214705129160708
+      type: {class: AttackNode, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: caf104d780d0a1c4e8a74067e569cdf2
+        position: {x: -1082.4023, y: 18.537933}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Play attack animation
+        drawGizmos: 0
+        slashCooldown: 2
+        spinAttackCooldown: 2.5
+        cooldownTimer: 0
+        enemyType: 1
+    - rid: 691214705129160709
+      type: {class: SetupBlackboard, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 88bd2651f6efe5049b514d8e60699125
+        position: {x: -1549.6472, y: 18.26938}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        player: {fileID: 0}
+    - rid: 691214705508220928
+      type: {class: InterruptSelector, ns: TheKiwiCoder, asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 5ffdc150e6bcd3246927645a73590835
+        position: {x: -835.5312, y: -235.38283}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        children:
+        - rid: 691214705129160706
+        - rid: 691214634588569620
+    - rid: 5127070212224712705
+      type: {class: AdvanceForward, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 2bbe0402c2e6eca429b9e10c38cbfd4f
+        position: {x: -910.3451, y: 30.455156}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Move closer towards player from circle rotation for an attack.
+        drawGizmos: 0
+        timeUntilAdvance: 3
+        timer: 0
+    - rid: 5127070212224712706
+      type: {class: MoveToPosition, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 7d90161b9e090ac44a053f8a328748a6
+        position: {x: -760.7175, y: 30.455156}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: Move to allocated move position
+        drawGizmos: 0
+        speed: 5
+        stoppingDistance: 0.1
+        updateRotation: 1
+        acceleration: 40
+        tolerance: 1
+    - rid: 5127070212224712708
+      type: {class: CircleDirection, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: acf97bc097afc5c4fb433dbabe468c57
+        position: {x: -208.55179, y: 269.36935}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        counter: 0
+        lowestTime: 10
+        highestTime: 25
+        timeUntilChange: 30
+        timer: 0
+    - rid: 5127070213706088450
+      type: {class: RotateTowardsPlayer, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 85c652019b614e04e9157b11e240b596
+        position: {x: -1392.331, y: 119.83449}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        target: {fileID: 0}
+        rotationSpeed: 1
+    - rid: 5127070213706088451
+      type: {class: RotateTowardsPlayer, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 6886ba283ed43b64db29870764aa139f
+        position: {x: 117.15348, y: 269.46216}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        target: {fileID: 0}
+        rotationSpeed: 0.6
+    - rid: 5127070372504797202
+      type: {class: MoveToCirclePosition, ns: , asm: Assembly-CSharp}
+      data:
+        state: 0
+        started: 0
+        guid: 4fec3b08d9102ae47ad854200d62d765
+        position: {x: -58.924156, y: 270.78622}
+        blackboard:
+          moveToPosition: {x: 0, y: 0, z: 0}
+          attackPosition: {fileID: 0}
+          playerTransform: {fileID: 0}
+          circleCounter: 0
+          targetCirclePoint: {x: 0, y: 0, z: 0}
+          circleDirection: 0
+        description: 
+        drawGizmos: 0
+        speed: 5
+        stoppingDistance: 0.1
+        updateRotation: 1
+        acceleration: 40
+        tolerance: 1
+        circlePlayer: 0
